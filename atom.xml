@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>东东东的小站</title>
+  
+  <subtitle>东东东的小站</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://dongdongyan.com/"/>
+  <updated>2019-04-03T01:16:53.307Z</updated>
+  <id>http://dongdongyan.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>分类和标签功能测试</title>
+    <link href="http://dongdongyan.com/2019/04/03/%E6%A0%87%E7%AD%BE%E5%92%8C%E5%88%86%E7%B1%BB%E6%B5%8B%E8%AF%95/"/>
+    <id>http://dongdongyan.com/2019/04/03/标签和分类测试/</id>
+    <published>2019-04-03T00:38:16.000Z</published>
+    <updated>2019-04-03T01:16:53.307Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Apr 07 2019 19:33:49 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;只是用于测试分类和标签功能&quot;&gt;&lt;a href=&quot;#只是用于测试分类和标签功能&quot; class=&quot;headerlink&quot; title=&quot;只
+      
+    
+    </summary>
+    
+      <category term="日常随笔" scheme="http://dongdongyan.com/categories/%E6%97%A5%E5%B8%B8%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="Hexo" scheme="http://dongdongyan.com/tags/Hexo/"/>
+    
+      <category term="Java" scheme="http://dongdongyan.com/tags/Java/"/>
+    
+      <category term="git" scheme="http://dongdongyan.com/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Blog Theme English document</title>
+    <link href="http://dongdongyan.com/2019/04/02/README/"/>
+    <id>http://dongdongyan.com/2019/04/02/README/</id>
+    <published>2019-04-02T19:23:37.000Z</published>
+    <updated>2019-04-02T19:50:38.082Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Apr 07 2019 19:33:49 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;pure&quot;&gt;&lt;a href=&quot;#pure&quot; class=&quot;headerlink&quot; title=&quot;pure&quot;&gt;&lt;/a&gt;pure&lt;/h1&gt;
+      
+    
+    </summary>
+    
+      <category term="日常随笔" scheme="http://dongdongyan.com/categories/%E6%97%A5%E5%B8%B8%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://dongdongyan.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="Hexo" scheme="http://dongdongyan.com/tags/Hexo/"/>
+    
+      <category term="建站" scheme="http://dongdongyan.com/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客主题中文文档</title>
+    <link href="http://dongdongyan.com/2019/04/02/README.cn/"/>
+    <id>http://dongdongyan.com/2019/04/02/README.cn/</id>
+    <published>2019-04-02T19:23:37.000Z</published>
+    <updated>2019-04-03T01:16:45.542Z</updated>
+    
+    <summary type="html">
+    
+      博客主题的中文官方配置以及使用文档
+    
+    </summary>
+    
+      <category term="日常随笔" scheme="http://dongdongyan.com/categories/%E6%97%A5%E5%B8%B8%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://dongdongyan.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="Hexo" scheme="http://dongdongyan.com/tags/Hexo/"/>
+    
+      <category term="建站" scheme="http://dongdongyan.com/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Speed Test</title>
+    <link href="http://dongdongyan.com/2019/03/26/Test/"/>
+    <id>http://dongdongyan.com/2019/03/26/Test/</id>
+    <published>2019-03-26T20:23:37.000Z</published>
+    <updated>2019-04-01T16:44:06.187Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Apr 07 2019 19:33:49 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;只是测试一下如果用Github托管，在国内浏览此博客的速度。&quot;&gt;&lt;a href=&quot;#只是测试一下如果用Github托管，在国内浏览此博
+      
+    
+    </summary>
+    
+      <category term="日常随笔" scheme="http://dongdongyan.com/categories/%E6%97%A5%E5%B8%B8%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://dongdongyan.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的第一篇hexo博文</title>
+    <link href="http://dongdongyan.com/2019/03/26/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87hexo%E5%8D%9A%E6%96%87/"/>
+    <id>http://dongdongyan.com/2019/03/26/我的第一篇hexo博文/</id>
+    <published>2019-03-26T20:23:37.000Z</published>
+    <updated>2019-04-01T16:44:05.205Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Apr 07 2019 19:33:49 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;第一章测试（markdown语法）&quot;&gt;&lt;a href=&quot;#第一章测试（markdown语法）&quot; class=&quot;headerlink&quot; 
+      
+    
+    </summary>
+    
+      <category term="日常随笔" scheme="http://dongdongyan.com/categories/%E6%97%A5%E5%B8%B8%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://dongdongyan.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://dongdongyan.com/2019/03/26/hello-world/"/>
+    <id>http://dongdongyan.com/2019/03/26/hello-world/</id>
+    <published>2019-03-26T20:20:00.404Z</published>
+    <updated>2019-03-26T20:20:00.404Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Apr 07 2019 19:33:49 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener no
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
