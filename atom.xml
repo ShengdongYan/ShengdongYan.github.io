@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dongdongyan.com/"/>
-  <updated>2019-04-07T19:37:07.329Z</updated>
+  <updated>2019-04-07T21:38:39.848Z</updated>
   <id>http://dongdongyan.com/</id>
   
   <author>
@@ -17,17 +17,44 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>分类和标签功能测试</title>
-    <link href="http://dongdongyan.com/2019/04/03/%E6%A0%87%E7%AD%BE%E5%92%8C%E5%88%86%E7%B1%BB%E6%B5%8B%E8%AF%95/"/>
-    <id>http://dongdongyan.com/2019/04/03/标签和分类测试/</id>
-    <published>2019-04-03T00:38:16.000Z</published>
-    <updated>2019-04-07T19:37:07.329Z</updated>
+    <title>写博客的Markdown语法介绍</title>
+    <link href="http://dongdongyan.com/2019/04/07/%E5%86%99%E5%8D%9A%E5%AE%A2%E7%9A%84Markdown%E8%AF%AD%E6%B3%95%E4%BB%8B%E7%BB%8D/"/>
+    <id>http://dongdongyan.com/2019/04/07/写博客的Markdown语法介绍/</id>
+    <published>2019-04-07T20:19:15.000Z</published>
+    <updated>2019-04-07T21:38:39.848Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Sun Apr 07 2019 21:16:32 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;只是用于测试分类和标签功能&quot;&gt;&lt;a href=&quot;#只是用于测试分类和标签功能&quot; class=&quot;headerlink&quot; title=&quot;只
+        &lt;!-- build time:Sun Apr 07 2019 22:38:49 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;md语法已经成了程序员的一项必备技能&quot;&gt;&lt;a href=&quot;#md语法已经成了程序员的一项必备技能&quot; class=&quot;headerlink
+      
+    
+    </summary>
+    
+      <category term="日常随笔" scheme="http://dongdongyan.com/categories/%E6%97%A5%E5%B8%B8%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="建站" scheme="http://dongdongyan.com/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+      <category term="markdown" scheme="http://dongdongyan.com/tags/markdown/"/>
+    
+      <category term="hexo" scheme="http://dongdongyan.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>分类和标签功能测试</title>
+    <link href="http://dongdongyan.com/2019/04/03/%E6%A0%87%E7%AD%BE%E5%92%8C%E5%88%86%E7%B1%BB%E6%B5%8B%E8%AF%95/"/>
+    <id>http://dongdongyan.com/2019/04/03/标签和分类测试/</id>
+    <published>2019-04-03T00:38:16.000Z</published>
+    <updated>2019-04-07T21:31:43.173Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Apr 07 2019 22:38:49 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;只是用于测试分类和标签功能&quot;&gt;&lt;a href=&quot;#只是用于测试分类和标签功能&quot; class=&quot;headerlink&quot; title=&quot;只
       
     
     </summary>
@@ -37,9 +64,7 @@
     
       <category term="Hexo" scheme="http://dongdongyan.com/tags/Hexo/"/>
     
-      <category term="Java" scheme="http://dongdongyan.com/tags/Java/"/>
-    
-      <category term="git" scheme="http://dongdongyan.com/tags/git/"/>
+      <category term="建站，Hexo主题" scheme="http://dongdongyan.com/tags/%E5%BB%BA%E7%AB%99%EF%BC%8CHexo%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
@@ -48,13 +73,13 @@
     <link href="http://dongdongyan.com/2019/04/02/README/"/>
     <id>http://dongdongyan.com/2019/04/02/README/</id>
     <published>2019-04-02T19:23:37.000Z</published>
-    <updated>2019-04-07T19:48:23.306Z</updated>
+    <updated>2019-04-07T21:31:49.213Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Sun Apr 07 2019 21:16:32 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;pure&quot;&gt;&lt;a href=&quot;#pure&quot; class=&quot;headerlink&quot; title=&quot;pure&quot;&gt;&lt;/a&gt;pure&lt;/h1&gt;
+        &lt;!-- build time:Sun Apr 07 2019 22:38:49 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;pure&quot;&gt;&lt;a href=&quot;#pure&quot; class=&quot;headerlink&quot; title=&quot;pure&quot;&gt;&lt;/a&gt;pure&lt;/h1&gt;
       
     
     </summary>
@@ -75,7 +100,7 @@
     <link href="http://dongdongyan.com/2019/04/02/README.cn/"/>
     <id>http://dongdongyan.com/2019/04/02/README.cn/</id>
     <published>2019-04-02T19:23:37.000Z</published>
-    <updated>2019-04-07T19:48:51.568Z</updated>
+    <updated>2019-04-07T21:31:51.491Z</updated>
     
     <summary type="html">
     
@@ -99,13 +124,13 @@
     <link href="http://dongdongyan.com/2019/03/26/Test/"/>
     <id>http://dongdongyan.com/2019/03/26/Test/</id>
     <published>2019-03-26T20:23:37.000Z</published>
-    <updated>2019-04-07T20:04:41.112Z</updated>
+    <updated>2019-04-07T21:31:47.165Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Sun Apr 07 2019 21:16:32 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;只是测试一下如果用Github托管，在国内浏览此博客的速度。&quot;&gt;&lt;a href=&quot;#只是测试一下如果用Github托管，在国内浏览此博
+        &lt;!-- build time:Sun Apr 07 2019 22:38:49 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;只是测试一下如果用Github托管，在国内浏览此博客的速度。&quot;&gt;&lt;a href=&quot;#只是测试一下如果用Github托管，在国内浏览此博
       
     
     </summary>
@@ -122,13 +147,13 @@
     <link href="http://dongdongyan.com/2019/03/26/hello-world/"/>
     <id>http://dongdongyan.com/2019/03/26/hello-world/</id>
     <published>2019-03-26T20:20:00.404Z</published>
-    <updated>2019-03-26T20:20:00.404Z</updated>
+    <updated>2019-04-07T21:31:54.174Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Sun Apr 07 2019 21:16:32 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener no
+        &lt;!-- build time:Sun Apr 07 2019 22:38:49 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener no
       
     
     </summary>
