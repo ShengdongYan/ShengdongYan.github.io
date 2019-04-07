@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://dongdongyan.com/about/index.html</loc>
+    
+    <lastmod>2019-04-07T18:35:53.547Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://dongdongyan.com/photo/index.html</loc>
     
     <lastmod>2019-04-07T18:12:21.470Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>http://dongdongyan.com/tags/index.html</loc>
     
     <lastmod>2019-04-07T17:45:34.065Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://dongdongyan.com/about/index.html</loc>
-    
-    <lastmod>2019-04-07T17:42:19.551Z</lastmod>
     
   </url>
   
