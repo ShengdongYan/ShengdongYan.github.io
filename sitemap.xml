@@ -2,16 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://dongdongyan.com/2019/04/06/Test/</loc>
+    <loc>http://dongdongyan.com/links/index.html</loc>
     
-    <lastmod>2019-04-06T22:40:30.764Z</lastmod>
+    <lastmod>2019-04-07T17:46:50.558Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://dongdongyan.com/2019/04/06/hello-world/</loc>
+    <loc>http://dongdongyan.com/categories/index.html</loc>
     
-    <lastmod>2019-04-06T21:42:39.644Z</lastmod>
+    <lastmod>2019-04-07T17:46:04.823Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://dongdongyan.com/tags/index.html</loc>
+    
+    <lastmod>2019-04-07T17:45:34.065Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://dongdongyan.com/about/index.html</loc>
+    
+    <lastmod>2019-04-07T17:42:19.551Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://dongdongyan.com/repository/index.html</loc>
+    
+    <lastmod>2019-04-07T17:40:25.454Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://dongdongyan.com/2019/04/03/%E6%A0%87%E7%AD%BE%E5%92%8C%E5%88%86%E7%B1%BB%E6%B5%8B%E8%AF%95/</loc>
+    
+    <lastmod>2019-04-03T01:16:53.307Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://dongdongyan.com/2019/04/02/README.cn/</loc>
+    
+    <lastmod>2019-04-03T01:16:45.542Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://dongdongyan.com/2019/04/02/README/</loc>
+    
+    <lastmod>2019-04-02T19:50:38.082Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://dongdongyan.com/2019/03/26/Test/</loc>
+    
+    <lastmod>2019-04-01T16:44:06.187Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://dongdongyan.com/2019/03/26/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87hexo%E5%8D%9A%E6%96%87/</loc>
+    
+    <lastmod>2019-04-01T16:44:05.205Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://dongdongyan.com/2019/03/26/hello-world/</loc>
+    
+    <lastmod>2019-03-26T20:20:00.404Z</lastmod>
     
   </url>
   
