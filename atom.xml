@@ -27,7 +27,7 @@
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 15:50:01 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近在读Java圣经-Java编程思想-Thingking-in-Java-第四版，-正好以笔记的形式整理一份Java的基础知识。&quot;&gt;
+        &lt;!-- build time:Fri Apr 19 2019 16:02:49 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近在读Java圣经-Java编程思想-Thingking-in-Java-第四版，-正好以笔记的形式整理一份Java的基础知识。&quot;&gt;
       
     
     </summary>
@@ -50,7 +50,7 @@
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 15:50:01 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;Collection&quot;&gt;&lt;a href=&quot;#Collection&quot; class=&quot;headerlink&quot; title=&quot;Collect
+        &lt;!-- build time:Fri Apr 19 2019 16:02:49 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;Collection&quot;&gt;&lt;a href=&quot;#Collection&quot; class=&quot;headerlink&quot; title=&quot;Collect
       
     
     </summary>
@@ -73,7 +73,7 @@
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 15:50:01 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;计算机语言的几种分类&lt;/p&gt;&lt;h3 id=&quot;常见的几种分类&quot;&gt;&lt;a href=&quot;#常见的几种分类&quot; class=&quot;headerlink&quot; tit
+        &lt;!-- build time:Fri Apr 19 2019 16:02:49 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;计算机语言的几种分类&lt;/p&gt;&lt;h3 id=&quot;常见的几种分类&quot;&gt;&lt;a href=&quot;#常见的几种分类&quot; class=&quot;headerlink&quot; tit
       
     
     </summary>
@@ -98,7 +98,7 @@
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 15:50:01 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;md语法已经成了程序员的一项必备技能&quot;&gt;&lt;a href=&quot;#md语法已经成了程序员的一项必备技能&quot; class=&quot;headerlink
+        &lt;!-- build time:Fri Apr 19 2019 16:02:49 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;md语法已经成了程序员的一项必备技能&quot;&gt;&lt;a href=&quot;#md语法已经成了程序员的一项必备技能&quot; class=&quot;headerlink
       
     
     </summary>
@@ -125,7 +125,7 @@
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 15:50:01 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;只是用于测试分类和标签功能&quot;&gt;&lt;a href=&quot;#只是用于测试分类和标签功能&quot; class=&quot;headerlink&quot; title=&quot;只
+        &lt;!-- build time:Fri Apr 19 2019 16:02:49 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;只是用于测试分类和标签功能&quot;&gt;&lt;a href=&quot;#只是用于测试分类和标签功能&quot; class=&quot;headerlink&quot; title=&quot;只
       
     
     </summary>
@@ -152,7 +152,7 @@
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 15:50:01 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;pure&quot;&gt;&lt;a href=&quot;#pure&quot; class=&quot;headerlink&quot; title=&quot;pure&quot;&gt;&lt;/a&gt;pure&lt;/h1&gt;
+        &lt;!-- build time:Fri Apr 19 2019 16:02:49 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;pure&quot;&gt;&lt;a href=&quot;#pure&quot; class=&quot;headerlink&quot; title=&quot;pure&quot;&gt;&lt;/a&gt;pure&lt;/h1&gt;
       
     
     </summary>
@@ -193,17 +193,17 @@
   </entry>
   
   <entry>
-    <title>Speed Test</title>
+    <title>Speed Test(书写格式模板)</title>
     <link href="http://dongdongyan.com/2019/03/26/Test/"/>
     <id>http://dongdongyan.com/2019/03/26/Test/</id>
     <published>2019-03-26T20:23:37.000Z</published>
-    <updated>2019-04-19T14:49:48.842Z</updated>
+    <updated>2019-04-19T15:02:35.021Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 15:50:01 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;[toc]&lt;/p&gt;&lt;h2 id=&quot;第一章-上&quot;&gt;&lt;a href=&quot;#第一章-上&quot; class=&quot;headerlink&quot; title=&quot;第一章  
+        &lt;!-- build time:Fri Apr 19 2019 16:02:49 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;a href=&quot;#第一章--上&quot;&gt;第一章 上&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#1-你说呢&quot;&gt;1. 你说呢&lt;/a&gt;&lt;/li&gt;&lt;
       
     
     </summary>
@@ -226,7 +226,7 @@
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 15:50:01 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener no
+        &lt;!-- build time:Fri Apr 19 2019 16:02:49 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener no
       
     
     </summary>
