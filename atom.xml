@@ -27,7 +27,7 @@
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 15:28:21 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近在读Java圣经-Java编程思想-Thingking-in-Java-第四版，-正好以笔记的形式整理一份Java的基础知识。&quot;&gt;
+        &lt;!-- build time:Fri Apr 19 2019 15:34:12 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近在读Java圣经-Java编程思想-Thingking-in-Java-第四版，-正好以笔记的形式整理一份Java的基础知识。&quot;&gt;
       
     
     </summary>
@@ -44,13 +44,13 @@
     <link href="http://dongdongyan.com/2019/04/14/Java%E5%AE%B9%E5%99%A8%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93%EF%BC%88Collection%E6%A1%86%E6%9E%B6/"/>
     <id>http://dongdongyan.com/2019/04/14/Java容器基础知识总结（Collection框架/</id>
     <published>2019-04-14T20:07:48.000Z</published>
-    <updated>2019-04-19T14:28:08.563Z</updated>
+    <updated>2019-04-19T14:34:00.368Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 15:28:21 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;[toc]&lt;/p&gt;&lt;h2 id=&quot;Collection&quot;&gt;&lt;a href=&quot;#Collection&quot; class=&quot;headerlink&quot; ti
+        &lt;!-- build time:Fri Apr 19 2019 15:34:12 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;Collection&quot;&gt;&lt;a href=&quot;#Collection&quot; class=&quot;headerlink&quot; title=&quot;Collect
       
     
     </summary>
@@ -73,7 +73,7 @@
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 15:28:21 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;计算机语言的几种分类&lt;/p&gt;&lt;h3 id=&quot;常见的几种分类&quot;&gt;&lt;a href=&quot;#常见的几种分类&quot; class=&quot;headerlink&quot; tit
+        &lt;!-- build time:Fri Apr 19 2019 15:34:12 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;计算机语言的几种分类&lt;/p&gt;&lt;h3 id=&quot;常见的几种分类&quot;&gt;&lt;a href=&quot;#常见的几种分类&quot; class=&quot;headerlink&quot; tit
       
     
     </summary>
@@ -98,7 +98,7 @@
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 15:28:21 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;md语法已经成了程序员的一项必备技能&quot;&gt;&lt;a href=&quot;#md语法已经成了程序员的一项必备技能&quot; class=&quot;headerlink
+        &lt;!-- build time:Fri Apr 19 2019 15:34:12 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;md语法已经成了程序员的一项必备技能&quot;&gt;&lt;a href=&quot;#md语法已经成了程序员的一项必备技能&quot; class=&quot;headerlink
       
     
     </summary>
@@ -125,7 +125,7 @@
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 15:28:21 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;只是用于测试分类和标签功能&quot;&gt;&lt;a href=&quot;#只是用于测试分类和标签功能&quot; class=&quot;headerlink&quot; title=&quot;只
+        &lt;!-- build time:Fri Apr 19 2019 15:34:12 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;只是用于测试分类和标签功能&quot;&gt;&lt;a href=&quot;#只是用于测试分类和标签功能&quot; class=&quot;headerlink&quot; title=&quot;只
       
     
     </summary>
@@ -152,7 +152,7 @@
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 15:28:21 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;pure&quot;&gt;&lt;a href=&quot;#pure&quot; class=&quot;headerlink&quot; title=&quot;pure&quot;&gt;&lt;/a&gt;pure&lt;/h1&gt;
+        &lt;!-- build time:Fri Apr 19 2019 15:34:12 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;pure&quot;&gt;&lt;a href=&quot;#pure&quot; class=&quot;headerlink&quot; title=&quot;pure&quot;&gt;&lt;/a&gt;pure&lt;/h1&gt;
       
     
     </summary>
@@ -203,7 +203,7 @@
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 15:28:21 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;只是测试一下如果用Github托管，在国内浏览此博客的速度。&quot;&gt;&lt;a href=&quot;#只是测试一下如果用Github托管，在国内浏览此博
+        &lt;!-- build time:Fri Apr 19 2019 15:34:12 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;只是测试一下如果用Github托管，在国内浏览此博客的速度。&quot;&gt;&lt;a href=&quot;#只是测试一下如果用Github托管，在国内浏览此博
       
     
     </summary>
@@ -226,7 +226,7 @@
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 15:28:21 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener no
+        &lt;!-- build time:Fri Apr 19 2019 15:34:12 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener no
       
     
     </summary>
