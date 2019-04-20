@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dongdongyan.com/"/>
-  <updated>2019-04-19T14:41:17.589Z</updated>
+  <updated>2019-04-20T11:23:03.004Z</updated>
   <id>http://dongdongyan.com/</id>
   
   <author>
@@ -21,13 +21,13 @@
     <link href="http://dongdongyan.com/2019/04/16/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/"/>
     <id>http://dongdongyan.com/2019/04/16/Java基础知识（持续更新）/</id>
     <published>2019-04-16T15:20:31.000Z</published>
-    <updated>2019-04-19T14:41:17.589Z</updated>
+    <updated>2019-04-20T11:23:03.004Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 17:08:24 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近在读Java圣经-Java编程思想-Thingking-in-Java-第四版，-正好以笔记的形式整理一份Java的基础知识。&quot;&gt;
+        &lt;!-- build time:Sat Apr 20 2019 12:23:15 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近在读Java圣经-Java编程思想-Thingking-in-Java-第四版，-正好以笔记的形式整理一份Java的基础知识。&quot;&gt;
       
     
     </summary>
@@ -50,7 +50,7 @@
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 17:08:24 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;Collection&quot;&gt;&lt;a href=&quot;#Collection&quot; class=&quot;headerlink&quot; title=&quot;Collect
+        &lt;!-- build time:Sat Apr 20 2019 12:23:15 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;Collection&quot;&gt;&lt;a href=&quot;#Collection&quot; class=&quot;headerlink&quot; title=&quot;Collect
       
     
     </summary>
@@ -73,7 +73,7 @@
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 17:08:24 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;计算机语言的几种分类&lt;/p&gt;&lt;h3 id=&quot;常见的几种分类&quot;&gt;&lt;a href=&quot;#常见的几种分类&quot; class=&quot;headerlink&quot; tit
+        &lt;!-- build time:Sat Apr 20 2019 12:23:15 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;计算机语言的几种分类&lt;/p&gt;&lt;h3 id=&quot;常见的几种分类&quot;&gt;&lt;a href=&quot;#常见的几种分类&quot; class=&quot;headerlink&quot; tit
       
     
     </summary>
@@ -98,7 +98,7 @@
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 17:08:24 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;md语法已经成了程序员的一项必备技能&quot;&gt;&lt;a href=&quot;#md语法已经成了程序员的一项必备技能&quot; class=&quot;headerlink
+        &lt;!-- build time:Sat Apr 20 2019 12:23:15 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;md语法已经成了程序员的一项必备技能&quot;&gt;&lt;a href=&quot;#md语法已经成了程序员的一项必备技能&quot; class=&quot;headerlink
       
     
     </summary>
@@ -125,7 +125,7 @@
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 17:08:24 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;只是用于测试分类和标签功能&quot;&gt;&lt;a href=&quot;#只是用于测试分类和标签功能&quot; class=&quot;headerlink&quot; title=&quot;只
+        &lt;!-- build time:Sat Apr 20 2019 12:23:15 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;只是用于测试分类和标签功能&quot;&gt;&lt;a href=&quot;#只是用于测试分类和标签功能&quot; class=&quot;headerlink&quot; title=&quot;只
       
     
     </summary>
@@ -152,7 +152,7 @@
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 17:08:24 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;pure&quot;&gt;&lt;a href=&quot;#pure&quot; class=&quot;headerlink&quot; title=&quot;pure&quot;&gt;&lt;/a&gt;pure&lt;/h1&gt;
+        &lt;!-- build time:Sat Apr 20 2019 12:23:15 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;pure&quot;&gt;&lt;a href=&quot;#pure&quot; class=&quot;headerlink&quot; title=&quot;pure&quot;&gt;&lt;/a&gt;pure&lt;/h1&gt;
       
     
     </summary>
@@ -197,13 +197,13 @@
     <link href="http://dongdongyan.com/2019/03/26/Test/"/>
     <id>http://dongdongyan.com/2019/03/26/Test/</id>
     <published>2019-03-26T20:23:37.000Z</published>
-    <updated>2019-04-19T16:08:10.117Z</updated>
+    <updated>2019-04-19T21:42:31.869Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 17:08:24 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;a href=&quot;#第一章--上&quot;&gt;第一章 上&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#二级标题测试&quot;&gt;二级标题测试&lt;/a&gt;&lt;/li&gt;
+        &lt;!-- build time:Sat Apr 20 2019 12:23:15 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;a href=&quot;#第一章--上&quot;&gt;第一章 上&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#二级标题测试&quot;&gt;二级标题测试&lt;/a&gt;&lt;/li&gt;
       
     
     </summary>
@@ -220,13 +220,13 @@
     <link href="http://dongdongyan.com/2019/03/26/hello-world/"/>
     <id>http://dongdongyan.com/2019/03/26/hello-world/</id>
     <published>2019-03-26T20:20:00.404Z</published>
-    <updated>2019-04-07T21:31:54.174Z</updated>
+    <updated>2019-04-19T20:38:47.168Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Fri Apr 19 2019 17:08:24 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener no
+        &lt;!-- build time:Sat Apr 20 2019 12:23:15 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener no
       
     
     </summary>
