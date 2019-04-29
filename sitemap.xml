@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://dongdongyan.com/2019/04/12/Java%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/</loc>
+    <loc>http://dongdongyan.com/2019/04/14/Java%E5%AE%B9%E5%99%A8%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93%EF%BC%88Collection%E6%A1%86%E6%9E%B6/</loc>
     
-    <lastmod>2019-04-28T12:26:04.780Z</lastmod>
+    <lastmod>2019-04-29T12:51:19.711Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://dongdongyan.com/2019/04/13/SoftwareEngineering%E5%90%84%E7%A7%8DUML%E5%9B%BE%E7%94%BB%E6%B3%95%E6%80%BB%E7%BB%93/</loc>
     
-    <lastmod>2019-04-28T12:25:45.916Z</lastmod>
+    <lastmod>2019-04-28T16:38:22.996Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://dongdongyan.com/2019/04/12/Java%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/</loc>
+    
+    <lastmod>2019-04-28T12:26:04.780Z</lastmod>
     
   </url>
   
@@ -26,13 +33,6 @@
     <loc>http://dongdongyan.com/2019/04/16/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</loc>
     
     <lastmod>2019-04-23T22:41:22.638Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://dongdongyan.com/2019/04/14/Java%E5%AE%B9%E5%99%A8%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93%EF%BC%88Collection%E6%A1%86%E6%9E%B6/</loc>
-    
-    <lastmod>2019-04-23T22:41:20.915Z</lastmod>
     
   </url>
   
