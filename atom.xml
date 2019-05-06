@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dongdongyan.com/"/>
-  <updated>2019-05-02T23:29:53.753Z</updated>
+  <updated>2019-05-06T14:13:09.173Z</updated>
   <id>http://dongdongyan.com/</id>
   
   <author>
@@ -17,17 +17,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>LeetCode刷题笔记</title>
-    <link href="http://dongdongyan.com/2019/05/02/LeetCode%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0/"/>
-    <id>http://dongdongyan.com/2019/05/02/LeetCode刷题笔记/</id>
-    <published>2019-05-02T22:34:50.000Z</published>
-    <updated>2019-05-02T23:29:53.753Z</updated>
+    <title>Java1.8 Lambda表达式+Function+Stream</title>
+    <link href="http://dongdongyan.com/2019/05/15/Java1.8%20Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F+Function+Stream/"/>
+    <id>http://dongdongyan.com/2019/05/15/Java1.8 Lambda表达式+Function+Stream/</id>
+    <published>2019-05-15T21:41:02.000Z</published>
+    <updated>2019-05-06T14:13:09.173Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Fri May 03 2019 00:30:06 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;a href=&quot;#简介&quot;&gt;简介：&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#hash&quot;&gt;Hash:&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a hr
+        &lt;!-- build time:Mon May 06 2019 15:13:37 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;自Java-8-JDK1-8-，推出了几个新的重要特性，这篇博文主要介绍了-Lambda，Function-Stream这三个新特性的
+      
+    
+    </summary>
+    
+      <category term="Java" scheme="http://dongdongyan.com/categories/Java/"/>
+    
+    
+      <category term="Lambda表达式，JDK1.8，Function,Stream" scheme="http://dongdongyan.com/tags/Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F%EF%BC%8CJDK1-8%EF%BC%8CFunction-Stream/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LeetCode刷题笔记</title>
+    <link href="http://dongdongyan.com/2019/05/02/LeetCode%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0/"/>
+    <id>http://dongdongyan.com/2019/05/02/LeetCode刷题笔记/</id>
+    <published>2019-05-02T22:34:50.000Z</published>
+    <updated>2019-05-05T21:03:29.196Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Mon May 06 2019 15:13:37 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;a href=&quot;#简介&quot;&gt;简介：&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#hash&quot;&gt;Hash:&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a hr
       
     
     </summary>
@@ -40,13 +63,13 @@
     <link href="http://dongdongyan.com/2019/04/16/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/"/>
     <id>http://dongdongyan.com/2019/04/16/Java基础知识（持续更新）/</id>
     <published>2019-04-16T15:20:31.000Z</published>
-    <updated>2019-04-29T14:48:50.215Z</updated>
+    <updated>2019-05-05T18:21:58.956Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Fri May 03 2019 00:30:06 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近在读Java圣经-Java编程思想-Thingking-in-Java-第四版，-正好以笔记的形式整理一份Java的基础知识。&quot;&gt;
+        &lt;!-- build time:Mon May 06 2019 15:13:37 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近在读Java圣经-Java编程思想-Thingking-in-Java-第四版，-正好以笔记的形式整理一份Java的基础知识。&quot;&gt;
       
     
     </summary>
@@ -63,13 +86,13 @@
     <link href="http://dongdongyan.com/2019/04/14/Java%E5%AE%B9%E5%99%A8%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93%EF%BC%88Collection%E6%A1%86%E6%9E%B6/"/>
     <id>http://dongdongyan.com/2019/04/14/Java容器基础知识总结（Collection框架/</id>
     <published>2019-04-14T20:07:48.000Z</published>
-    <updated>2019-04-29T14:58:22.519Z</updated>
+    <updated>2019-05-05T21:45:41.538Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Fri May 03 2019 00:30:06 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;strong&gt;这里目前主要先用来总结一下Collection框架的基础知识，包括各个容器的优劣，使用场景等等. 这篇博客里有很多地方我自己比较
+        &lt;!-- build time:Mon May 06 2019 15:13:37 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;strong&gt;这里目前主要先用来总结一下Collection框架的基础知识，包括各个容器的优劣，使用场景等等. 这篇博客里有很多地方我自己比较
       
     
     </summary>
@@ -92,7 +115,7 @@
     
       
       
-        &lt;!-- build time:Fri May 03 2019 00:30:06 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近有场Software-Engineering考试，趁机总结一波各种UML图的画法，包括UserCase-State-Activit
+        &lt;!-- build time:Mon May 06 2019 15:13:37 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近有场Software-Engineering考试，趁机总结一波各种UML图的画法，包括UserCase-State-Activit
       
     
     </summary>
@@ -117,7 +140,7 @@
     
       
       
-        &lt;!-- build time:Fri May 03 2019 00:30:06 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;这里记录一些常见的问题以及答案，主要是针对Java面试。&quot;&gt;&lt;a href=&quot;#这里记录一些常见的问题以及答案，主要是针对Java面试
+        &lt;!-- build time:Mon May 06 2019 15:13:37 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;这里记录一些常见的问题以及答案，主要是针对Java面试。&quot;&gt;&lt;a href=&quot;#这里记录一些常见的问题以及答案，主要是针对Java面试
       
     
     </summary>
@@ -140,7 +163,7 @@
     
       
       
-        &lt;!-- build time:Fri May 03 2019 00:30:06 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;计算机语言的几种分类&lt;/p&gt;&lt;h3 id=&quot;常见的几种分类&quot;&gt;&lt;a href=&quot;#常见的几种分类&quot; class=&quot;headerlink&quot; tit
+        &lt;!-- build time:Mon May 06 2019 15:13:37 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;计算机语言的几种分类&lt;/p&gt;&lt;h3 id=&quot;常见的几种分类&quot;&gt;&lt;a href=&quot;#常见的几种分类&quot; class=&quot;headerlink&quot; tit
       
     
     </summary>
@@ -165,7 +188,7 @@
     
       
       
-        &lt;!-- build time:Fri May 03 2019 00:30:06 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;md语法已经成了程序员的一项必备技能&quot;&gt;&lt;a href=&quot;#md语法已经成了程序员的一项必备技能&quot; class=&quot;headerlink
+        &lt;!-- build time:Mon May 06 2019 15:13:37 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;md语法已经成了程序员的一项必备技能&quot;&gt;&lt;a href=&quot;#md语法已经成了程序员的一项必备技能&quot; class=&quot;headerlink
       
     
     </summary>
@@ -192,7 +215,7 @@
     
       
       
-        &lt;!-- build time:Fri May 03 2019 00:30:06 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;只是用于测试分类和标签功能&quot;&gt;&lt;a href=&quot;#只是用于测试分类和标签功能&quot; class=&quot;headerlink&quot; title=&quot;只
+        &lt;!-- build time:Mon May 06 2019 15:13:37 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;只是用于测试分类和标签功能&quot;&gt;&lt;a href=&quot;#只是用于测试分类和标签功能&quot; class=&quot;headerlink&quot; title=&quot;只
       
     
     </summary>
@@ -219,7 +242,7 @@
     
       
       
-        &lt;!-- build time:Fri May 03 2019 00:30:06 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;pure&quot;&gt;&lt;a href=&quot;#pure&quot; class=&quot;headerlink&quot; title=&quot;pure&quot;&gt;&lt;/a&gt;pure&lt;/h1&gt;
+        &lt;!-- build time:Mon May 06 2019 15:13:37 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;pure&quot;&gt;&lt;a href=&quot;#pure&quot; class=&quot;headerlink&quot; title=&quot;pure&quot;&gt;&lt;/a&gt;pure&lt;/h1&gt;
       
     
     </summary>
@@ -270,7 +293,7 @@
     
       
       
-        &lt;!-- build time:Fri May 03 2019 00:30:06 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;a href=&quot;#第一章--上&quot;&gt;第一章 上&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#二级标题测试&quot;&gt;二级标题测试&lt;/a&gt;&lt;/li&gt;
+        &lt;!-- build time:Mon May 06 2019 15:13:37 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;a href=&quot;#第一章--上&quot;&gt;第一章 上&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#二级标题测试&quot;&gt;二级标题测试&lt;/a&gt;&lt;/li&gt;
       
     
     </summary>
@@ -293,7 +316,7 @@
     
       
       
-        &lt;!-- build time:Fri May 03 2019 00:30:06 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener no
+        &lt;!-- build time:Mon May 06 2019 15:13:37 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener no
       
     
     </summary>
