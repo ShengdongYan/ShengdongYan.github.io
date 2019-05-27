@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dongdongyan.com/"/>
-  <updated>2019-05-27T15:52:41.450Z</updated>
+  <updated>2019-05-27T22:29:47.856Z</updated>
   <id>http://dongdongyan.com/</id>
   
   <author>
@@ -17,17 +17,17 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Tomcat&amp;Servlet学习笔记</title>
-    <link href="http://dongdongyan.com/2019/05/27/Tomcat&amp;Servlet%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <id>http://dongdongyan.com/2019/05/27/Tomcat&amp;Servlet学习笔记/</id>
+    <title>JavaWeb基础知识总结</title>
+    <link href="http://dongdongyan.com/2019/05/27/JavaWeb%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/"/>
+    <id>http://dongdongyan.com/2019/05/27/JavaWeb基础知识总结/</id>
     <published>2019-05-27T15:20:31.000Z</published>
-    <updated>2019-05-27T15:52:41.450Z</updated>
+    <updated>2019-05-27T22:29:47.856Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Mon May 27 2019 16:52:52 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;主要内容&quot;&gt;&lt;a href=&quot;#主要内容&quot; class=&quot;headerlink&quot; title=&quot;主要内容&quot;&gt;&lt;/a&gt;主要内容&lt;/h1&gt;
+        &lt;!-- build time:Mon May 27 2019 23:30:23 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;主要内容&quot;&gt;&lt;a href=&quot;#主要内容&quot; class=&quot;headerlink&quot; title=&quot;主要内容&quot;&gt;&lt;/a&gt;主要内容&lt;/h1&gt;
       
     
     </summary>
@@ -44,36 +44,17 @@
   </entry>
   
   <entry>
-    <title></title>
-    <link href="http://dongdongyan.com/2019/05/22/JavaWeb%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
-    <id>http://dongdongyan.com/2019/05/22/JavaWeb基础知识/</id>
-    <published>2019-05-22T13:38:28.202Z</published>
-    <updated>2019-05-27T15:30:30.697Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;!-- build time:Mon May 27 2019 16:52:52 GMT+0100 (GMT+01:00) --&gt;&lt;hr&gt;&lt;hr&gt;&lt;h2 id=&quot;1-Applet&quot;&gt;&lt;a href=&quot;#1-Applet&quot; class=&quot;headerlink&quot; title=&quot;1.A
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Java1.8 Lambda表达式+Function+Stream</title>
     <link href="http://dongdongyan.com/2019/05/15/Java1.8%20Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F+Function+Stream/"/>
     <id>http://dongdongyan.com/2019/05/15/Java1.8 Lambda表达式+Function+Stream/</id>
     <published>2019-05-15T21:41:02.000Z</published>
-    <updated>2019-05-23T23:12:20.703Z</updated>
+    <updated>2019-05-27T22:29:52.080Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Mon May 27 2019 16:52:52 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;自Java-8-JDK1-8-，推出了几个新的重要特性，这篇博文主要介绍了-Lambda，Function-Stream这三个新特性的
+        &lt;!-- build time:Mon May 27 2019 23:30:22 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;自Java-8-JDK1-8-，推出了几个新的重要特性，这篇博文主要介绍了-Lambda，Function-Stream这三个新特性的
       
     
     </summary>
@@ -90,13 +71,13 @@
     <link href="http://dongdongyan.com/2019/05/08/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0/"/>
     <id>http://dongdongyan.com/2019/05/08/数据库基础知识笔记/</id>
     <published>2019-05-08T21:41:02.000Z</published>
-    <updated>2019-05-10T21:53:04.892Z</updated>
+    <updated>2019-05-27T22:29:57.127Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Mon May 27 2019 16:52:52 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;我个人对数据库学的比较浅，这篇博文记录了一些数据库的基础知识，主要用于个人笔记形式&quot;&gt;&lt;a href=&quot;#我个人对数据库学的比较浅，这
+        &lt;!-- build time:Mon May 27 2019 23:30:23 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;我个人对数据库学的比较浅，这篇博文记录了一些数据库的基础知识，主要用于个人笔记形式&quot;&gt;&lt;a href=&quot;#我个人对数据库学的比较浅，这
       
     
     </summary>
@@ -105,6 +86,8 @@
     
     
       <category term="数据库三范式，数据库" scheme="http://dongdongyan.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%89%E8%8C%83%E5%BC%8F%EF%BC%8C%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+      <category term="事物四大特性" scheme="http://dongdongyan.com/tags/%E4%BA%8B%E7%89%A9%E5%9B%9B%E5%A4%A7%E7%89%B9%E6%80%A7/"/>
     
   </entry>
   
@@ -119,7 +102,7 @@
     
       
       
-        &lt;!-- build time:Mon May 27 2019 16:52:52 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;a href=&quot;#简介&quot;&gt;简介：&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#hash&quot;&gt;Hash:&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a hr
+        &lt;!-- build time:Mon May 27 2019 23:30:22 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;a href=&quot;#简介&quot;&gt;简介：&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#hash&quot;&gt;Hash:&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a hr
       
     
     </summary>
@@ -132,13 +115,13 @@
     <link href="http://dongdongyan.com/2019/04/16/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/"/>
     <id>http://dongdongyan.com/2019/04/16/Java基础知识（持续更新）/</id>
     <published>2019-04-16T15:20:31.000Z</published>
-    <updated>2019-05-27T15:33:28.609Z</updated>
+    <updated>2019-05-27T22:29:50.542Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Mon May 27 2019 16:52:52 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近在读Java圣经-Java编程思想-Thingking-in-Java-第四版，-正好以笔记的形式整理一份Java的基础知识。&quot;&gt;
+        &lt;!-- build time:Mon May 27 2019 23:30:23 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近在读Java圣经-Java编程思想-Thingking-in-Java-第四版，-正好以笔记的形式整理一份Java的基础知识。&quot;&gt;
       
     
     </summary>
@@ -161,7 +144,7 @@
     
       
       
-        &lt;!-- build time:Mon May 27 2019 16:52:52 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;strong&gt;这里目前主要先用来总结一下Collection框架的基础知识，包括各个容器的优劣，使用场景等等. 这篇博客里有很多地方我自己比较
+        &lt;!-- build time:Mon May 27 2019 23:30:23 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;strong&gt;这里目前主要先用来总结一下Collection框架的基础知识，包括各个容器的优劣，使用场景等等. 这篇博客里有很多地方我自己比较
       
     
     </summary>
@@ -184,7 +167,7 @@
     
       
       
-        &lt;!-- build time:Mon May 27 2019 16:52:52 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近有场Software-Engineering考试，趁机总结一波各种UML图的画法，包括UserCase-State-Activit
+        &lt;!-- build time:Mon May 27 2019 23:30:22 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近有场Software-Engineering考试，趁机总结一波各种UML图的画法，包括UserCase-State-Activit
       
     
     </summary>
@@ -209,7 +192,7 @@
     
       
       
-        &lt;!-- build time:Mon May 27 2019 16:52:52 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;这里记录一些常见的问题以及答案，主要是针对Java面试。&quot;&gt;&lt;a href=&quot;#这里记录一些常见的问题以及答案，主要是针对Java面试
+        &lt;!-- build time:Mon May 27 2019 23:30:22 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;这里记录一些常见的问题以及答案，主要是针对Java面试。&quot;&gt;&lt;a href=&quot;#这里记录一些常见的问题以及答案，主要是针对Java面试
       
     
     </summary>
@@ -232,7 +215,7 @@
     
       
       
-        &lt;!-- build time:Mon May 27 2019 16:52:52 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;计算机语言的几种分类&lt;/p&gt;&lt;h3 id=&quot;常见的几种分类&quot;&gt;&lt;a href=&quot;#常见的几种分类&quot; class=&quot;headerlink&quot; tit
+        &lt;!-- build time:Mon May 27 2019 23:30:22 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;计算机语言的几种分类&lt;/p&gt;&lt;h3 id=&quot;常见的几种分类&quot;&gt;&lt;a href=&quot;#常见的几种分类&quot; class=&quot;headerlink&quot; tit
       
     
     </summary>
@@ -257,7 +240,7 @@
     
       
       
-        &lt;!-- build time:Mon May 27 2019 16:52:52 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;md语法已经成了程序员的一项必备技能&quot;&gt;&lt;a href=&quot;#md语法已经成了程序员的一项必备技能&quot; class=&quot;headerlink
+        &lt;!-- build time:Mon May 27 2019 23:30:22 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;md语法已经成了程序员的一项必备技能&quot;&gt;&lt;a href=&quot;#md语法已经成了程序员的一项必备技能&quot; class=&quot;headerlink
       
     
     </summary>
@@ -284,7 +267,7 @@
     
       
       
-        &lt;!-- build time:Mon May 27 2019 16:52:52 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;只是用于测试分类和标签功能&quot;&gt;&lt;a href=&quot;#只是用于测试分类和标签功能&quot; class=&quot;headerlink&quot; title=&quot;只
+        &lt;!-- build time:Mon May 27 2019 23:30:22 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;只是用于测试分类和标签功能&quot;&gt;&lt;a href=&quot;#只是用于测试分类和标签功能&quot; class=&quot;headerlink&quot; title=&quot;只
       
     
     </summary>
@@ -297,33 +280,6 @@
       <category term="建站" scheme="http://dongdongyan.com/tags/%E5%BB%BA%E7%AB%99/"/>
     
       <category term="Hexo主题" scheme="http://dongdongyan.com/tags/Hexo%E4%B8%BB%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Blog Theme English document</title>
-    <link href="http://dongdongyan.com/2019/04/02/README/"/>
-    <id>http://dongdongyan.com/2019/04/02/README/</id>
-    <published>2019-04-02T19:23:37.000Z</published>
-    <updated>2019-04-07T21:31:49.213Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;!-- build time:Mon May 27 2019 16:52:52 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;pure&quot;&gt;&lt;a href=&quot;#pure&quot; class=&quot;headerlink&quot; title=&quot;pure&quot;&gt;&lt;/a&gt;pure&lt;/h1&gt;
-      
-    
-    </summary>
-    
-      <category term="日常随笔" scheme="http://dongdongyan.com/categories/%E6%97%A5%E5%B8%B8%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="随笔" scheme="http://dongdongyan.com/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-      <category term="Hexo" scheme="http://dongdongyan.com/tags/Hexo/"/>
-    
-      <category term="建站" scheme="http://dongdongyan.com/tags/%E5%BB%BA%E7%AB%99/"/>
     
   </entry>
   
@@ -352,6 +308,33 @@
   </entry>
   
   <entry>
+    <title>Blog Theme English document</title>
+    <link href="http://dongdongyan.com/2019/04/02/README/"/>
+    <id>http://dongdongyan.com/2019/04/02/README/</id>
+    <published>2019-04-02T19:23:37.000Z</published>
+    <updated>2019-04-07T21:31:49.213Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Mon May 27 2019 23:30:22 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;pure&quot;&gt;&lt;a href=&quot;#pure&quot; class=&quot;headerlink&quot; title=&quot;pure&quot;&gt;&lt;/a&gt;pure&lt;/h1&gt;
+      
+    
+    </summary>
+    
+      <category term="日常随笔" scheme="http://dongdongyan.com/categories/%E6%97%A5%E5%B8%B8%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://dongdongyan.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="Hexo" scheme="http://dongdongyan.com/tags/Hexo/"/>
+    
+      <category term="建站" scheme="http://dongdongyan.com/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Speed Test(书写格式模板)</title>
     <link href="http://dongdongyan.com/2019/03/26/Test/"/>
     <id>http://dongdongyan.com/2019/03/26/Test/</id>
@@ -362,7 +345,7 @@
     
       
       
-        &lt;!-- build time:Mon May 27 2019 16:52:52 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;a href=&quot;#第一章--上&quot;&gt;第一章 上&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#二级标题测试&quot;&gt;二级标题测试&lt;/a&gt;&lt;/li&gt;
+        &lt;!-- build time:Mon May 27 2019 23:30:22 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;a href=&quot;#第一章--上&quot;&gt;第一章 上&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#二级标题测试&quot;&gt;二级标题测试&lt;/a&gt;&lt;/li&gt;
       
     
     </summary>
@@ -385,7 +368,7 @@
     
       
       
-        &lt;!-- build time:Mon May 27 2019 16:52:52 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener no
+        &lt;!-- build time:Mon May 27 2019 23:30:22 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener no
       
     
     </summary>
