@@ -1,14 +1,18 @@
-<!-- build time:Tue May 28 2019 00:10:23 GMT+0100 (GMT+01:00) --><!DOCTYPE html><html lang="zh"><head><meta name="generator" content="Hexo 3.8.0"><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui"><meta name="renderer" content="webkit"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no,email=no,adress=no"><meta name="theme-color" content="#000000"><meta http-equiv="window-target" content="_top"><title>JavaWeb基础知识总结 | 东东东的小站</title><meta name="description" content="主要内容1. web相关概念 2. web服务器软件：Tomcat 3. Servlet入门学习 4. HTTP协议：响应消息 5. Request对象 6. Response对象 7. ServletContext对象 8. 会话技术     1. Cookie     2. Session 9. JSP：入门学习 web相关概念1. 软件架构     1. C/S：客户端/服务器端     2"><meta name="keywords" content="JavaWeb基础,Servlet,Tomcat"><meta property="og:type" content="article"><meta property="og:title" content="JavaWeb基础知识总结"><meta property="og:url" content="http://dongdongyan.com/2019/05/27/JavaWeb基础知识总结/index.html"><meta property="og:site_name" content="东东东的小站"><meta property="og:description" content="主要内容1. web相关概念 2. web服务器软件：Tomcat 3. Servlet入门学习 4. HTTP协议：响应消息 5. Request对象 6. Response对象 7. ServletContext对象 8. 会话技术     1. Cookie     2. Session 9. JSP：入门学习 web相关概念1. 软件架构     1. C/S：客户端/服务器端     2"><meta property="og:locale" content="zh-CN"><meta property="og:updated_time" content="2019-05-27T23:07:20.861Z"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="JavaWeb基础知识总结"><meta name="twitter:description" content="主要内容1. web相关概念 2. web服务器软件：Tomcat 3. Servlet入门学习 4. HTTP协议：响应消息 5. Request对象 6. Response对象 7. ServletContext对象 8. 会话技术     1. Cookie     2. Session 9. JSP：入门学习 web相关概念1. 软件架构     1. C/S：客户端/服务器端     2"><link rel="canonical" href="http://dongdongyan.com/2019/05/27/JavaWeb基础知识总结/index.html"><link rel="alternate" href="/atom.xml" title="东东东的小站" type="application/atom+xml"><link rel="icon" href="/images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/style.css"></head><body class="main-center" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="slimContent"><div class="navbar-header"><div class="profile-block text-center"><a id="avatar" href="https://github.com/shengdongyan" target="_blank" rel="external nofollow noopener noreferrer"><img class="img-circle img-rotate" src="/images/avatar.jpg" width="200" height="200"></a><h2 id="name" class="hidden-xs hidden-sm">东东东</h2><h3 id="title" class="hidden-xs hidden-sm hidden-md">A Java Developer</h3><small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Birmingham, UK</small></div><div class="search" id="search-form-wrap"><form class="search-form sidebar-form"><div class="input-group"><input type="text" class="search-form-input form-control" placeholder="搜索"> <span class="input-group-btn"><button type="submit" class="search-form-submit btn btn-flat" onclick="return!1"><i class="icon icon-search"></i></button></span></div></form><div class="ins-search"><div class="ins-search-mask"></div><div class="ins-search-container"><div class="ins-input-wrapper"><input type="text" class="ins-search-input" placeholder="想要查找什么..." x-webkit-speech> <button type="button" class="close ins-close ins-selectable" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div><div class="ins-section-wrapper"><div class="ins-section-container"></div></div></div></div></div><button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button></div><nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation"><ul class="nav navbar-nav main-nav"><li class="menu-item menu-item-home"><a href="/."><i class="icon icon-home-fill"></i> <span class="menu-title">首页</span></a></li><li class="menu-item menu-item-archives"><a href="/archives"><i class="icon icon-archives-fill"></i> <span class="menu-title">归档</span></a></li><li class="menu-item menu-item-categories"><a href="/categories"><i class="icon icon-folder"></i> <span class="menu-title">分类</span></a></li><li class="menu-item menu-item-tags"><a href="/tags"><i class="icon icon-tags"></i> <span class="menu-title">标签</span></a></li><li class="menu-item menu-item-repository"><a href="/repository"><i class="icon icon-project"></i> <span class="menu-title">项目</span></a></li><li class="menu-item menu-item-photo"><a href="/photo"><i class="icon icon-book-fill"></i> <span class="menu-title">相册</span></a></li><li class="menu-item menu-item-links"><a href="/links"><i class="icon icon-friendship"></i> <span class="menu-title">友链</span></a></li><li class="menu-item menu-item-about"><a href="/about"><i class="icon icon-cup-fill"></i> <span class="menu-title">关于</span></a></li></ul><ul class="social-links"><li><a href="https://github.com/shengdongyan" target="_blank" title="Github" data-toggle="tooltip" data-placement="top" rel="external nofollow noopener noreferrer"><i class="icon icon-github"></i></a></li><li><a href="https://www.zhihu.com/people/dong-dong-yan-28" target="_blank" title="Zhihu" data-toggle="tooltip" data-placement="top" rel="external nofollow noopener noreferrer"><i class="icon icon-zhihu"></i></a></li><li><a href="https://user.qzone.qq.com/516639611" target="_blank" title="Qzone" data-toggle="tooltip" data-placement="top" rel="external nofollow noopener noreferrer"><i class="icon icon-qzone"></i></a></li><li><a href="https://www.weibo.com/p/1005055828209433/home?from=page_100505&mod=TAB&is_hot=1#place" target="_blank" title="Weibo" data-toggle="tooltip" data-placement="top" rel="external nofollow noopener noreferrer"><i class="icon icon-weibo"></i></a></li><li><a href="https://www.facebook.com/shengdong.yan" target="_blank" title="Facebook" data-toggle="tooltip" data-placement="top" rel="external nofollow noopener noreferrer"><i class="icon icon-facebook"></i></a></li><li><a href="/atom.xml" target="_blank" title="Rss" data-toggle="tooltip" data-placement="top"><i class="icon icon-rss"></i></a></li></ul></nav></div></header><aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar"><div class="slimContent"><div class="widget"><h3 class="widget-title">公告</h3><div class="widget-body"><div id="board"><div class="content"><p style="width:200px">东东东：博主本科毕业于北邮，研究生就读于英国伯明翰大学，即将步入职场，未来希望可以从事Java开发的相关工作。目前主要在这里记录学习笔记和生活随笔，下面是我的微信，欢迎交流与分享经验!</p><br><img class="img-rotate" src="/images/QrCode.jpeg" width="180" height="180"></div></div></div></div><div class="widget"><h3 class="widget-title">分类</h3><div class="widget-body"><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Java/">Java</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/JavaWeb/">JavaWeb</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/数据库/">数据库</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/日常随笔/">日常随笔</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/计算机基础知识/">计算机基础知识</a><span class="category-list-count">2</span></li></ul></div></div><div class="widget"><h3 class="widget-title">标签</h3><div class="widget-body"><ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo主题/">Hexo主题</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JavaWeb基础/">JavaWeb基础</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Java基础/">Java基础</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Java基础，-Collection框架，Java容器/">Java基础， Collection框架，Java容器</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Java问题/">Java问题</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Lambda表达式，JDK1-8，Function-Stream/">Lambda表达式，JDK1.8，Function,Stream</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SE/">SE</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Servlet/">Servlet</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Tomcat/">Tomcat</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/UML/">UML</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/">markdown</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/建站/">建站</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/数据库三范式，事物四大特性，隔开级别/">数据库三范式，事物四大特性，隔开级别</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/编程语言/">编程语言</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/计算机基础/">计算机基础</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/随笔/">随笔</a><span class="tag-list-count">3</span></li></ul></div></div><div class="widget"><h3 class="widget-title">标签云</h3><div class="widget-body tagcloud"><a href="/tags/Hexo/" style="font-size:14px">Hexo</a> <a href="/tags/Hexo主题/" style="font-size:13px">Hexo主题</a> <a href="/tags/JavaWeb基础/" style="font-size:13px">JavaWeb基础</a> <a href="/tags/Java基础/" style="font-size:13px">Java基础</a> <a href="/tags/Java基础，-Collection框架，Java容器/" style="font-size:13px">Java基础， Collection框架，Java容器</a> <a href="/tags/Java问题/" style="font-size:13px">Java问题</a> <a href="/tags/Lambda表达式，JDK1-8，Function-Stream/" style="font-size:13px">Lambda表达式，JDK1.8，Function,Stream</a> <a href="/tags/SE/" style="font-size:13px">SE</a> <a href="/tags/Servlet/" style="font-size:13px">Servlet</a> <a href="/tags/Tomcat/" style="font-size:13px">Tomcat</a> <a href="/tags/UML/" style="font-size:13px">UML</a> <a href="/tags/markdown/" style="font-size:13px">markdown</a> <a href="/tags/建站/" style="font-size:14px">建站</a> <a href="/tags/数据库三范式，事物四大特性，隔开级别/" style="font-size:13px">数据库三范式，事物四大特性，隔开级别</a> <a href="/tags/编程语言/" style="font-size:13px">编程语言</a> <a href="/tags/计算机基础/" style="font-size:13px">计算机基础</a> <a href="/tags/随笔/" style="font-size:13.5px">随笔</a></div></div><div class="widget"><h3 class="widget-title">归档</h3><div class="widget-body"><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/">五月 2019</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">四月 2019</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">三月 2019</a><span class="archive-list-count">2</span></li></ul></div></div><div class="widget"><h3 class="widget-title">最新文章</h3><div class="widget-body"><ul class="recent-post-list list-unstyled no-thumbnail"><li><div class="item-inner"><p class="item-category"><a class="category-link" href="/categories/JavaWeb/">JavaWeb</a></p><p class="item-title"><a href="/2019/05/27/JavaWeb基础知识总结/" class="title">JavaWeb基础知识总结</a></p><p class="item-date"><time datetime="2019-05-27T15:20:31.000Z" itemprop="datePublished">2019-05-27</time></p></div></li><li><div class="item-inner"><p class="item-category"><a class="category-link" href="/categories/Java/">Java</a></p><p class="item-title"><a href="/2019/05/15/Java1.8 Lambda表达式+Function+Stream/" class="title">Java1.8 Lambda表达式+Function+Stream</a></p><p class="item-date"><time datetime="2019-05-15T21:41:02.000Z" itemprop="datePublished">2019-05-15</time></p></div></li><li><div class="item-inner"><p class="item-category"><a class="category-link" href="/categories/数据库/">数据库</a></p><p class="item-title"><a href="/2019/05/08/数据库基础知识笔记/" class="title">数据库基础知识笔记</a></p><p class="item-date"><time datetime="2019-05-08T21:41:02.000Z" itemprop="datePublished">2019-05-08</time></p></div></li><li><div class="item-inner"><p class="item-category"></p><p class="item-title"><a href="/2019/05/02/LeetCode刷题笔记/" class="title">LeetCode刷题笔记</a></p><p class="item-date"><time datetime="2019-05-02T22:34:50.000Z" itemprop="datePublished">2019-05-02</time></p></div></li><li><div class="item-inner"><p class="item-category"><a class="category-link" href="/categories/Java/">Java</a></p><p class="item-title"><a href="/2019/04/16/Java基础知识（持续更新）/" class="title">Java基础知识（持续更新）</a></p><p class="item-date"><time datetime="2019-04-16T15:20:31.000Z" itemprop="datePublished">2019-04-16</time></p></div></li></ul></div></div></div></aside><aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar"><div class="slimContent"><nav id="toc" class="article-toc"><h3 class="toc-title">文章目录</h3><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#主要内容"><span class="toc-number">1.</span> <span class="toc-text">主要内容</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#web相关概念"><span class="toc-number">1.1.</span> <span class="toc-text">web相关概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#web服务器软件："><span class="toc-number">1.2.</span> <span class="toc-text">web服务器软件：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Servlet：-server-applet"><span class="toc-number">1.3.</span> <span class="toc-text">Servlet： server applet</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#IDEA与tomcat的相关配置"><span class="toc-number">1.4.</span> <span class="toc-text">IDEA与tomcat的相关配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#HTTP："><span class="toc-number">1.5.</span> <span class="toc-text">HTTP：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Request："><span class="toc-number">1.6.</span> <span class="toc-text">Request：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Response对象"><span class="toc-number">1.7.</span> <span class="toc-text">Response对象</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ServletContext对象："><span class="toc-number">1.8.</span> <span class="toc-text">ServletContext对象：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#案例："><span class="toc-number">1.9.</span> <span class="toc-text">案例：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#会话技术"><span class="toc-number">1.10.</span> <span class="toc-text">会话技术</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Cookie："><span class="toc-number">1.11.</span> <span class="toc-text">Cookie：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JSP：入门学习"><span class="toc-number">1.12.</span> <span class="toc-text">JSP：入门学习</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Session：主菜"><span class="toc-number">1.13.</span> <span class="toc-text">Session：主菜</span></a></li></ol></li></ol></nav></div></aside><main class="main" role="main"><div class="content"><article id="post-JavaWeb基础知识总结" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting"><div class="article-header"><h1 class="article-title" itemprop="name">JavaWeb基础知识总结</h1><div class="article-meta"><span class="article-date"><i class="icon icon-calendar-check"></i> <a href="/2019/05/27/JavaWeb基础知识总结/" class="article-date"><time datetime="2019-05-27T15:20:31.000Z" itemprop="datePublished">2019-05-27</time></a></span> <span class="article-category"><i class="icon icon-folder"></i> <a class="article-category-link" href="/categories/JavaWeb/">JavaWeb</a></span> <span class="article-tag"><i class="icon icon-tags"></i> <a class="article-tag-link" href="/tags/JavaWeb基础/">JavaWeb基础</a>, <a class="article-tag-link" href="/tags/Servlet/">Servlet</a>, <a class="article-tag-link" href="/tags/Tomcat/">Tomcat</a></span> <span class="article-read hidden-xs"><i class="icon icon-eye-fill" aria-hidden="true"></i> <span id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv">0</span></span></span> <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2019/05/27/JavaWeb基础知识总结/#comments" class="article-comment-link">评论</a></span> <span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 6.4k(字)</span> <span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 25(分)</span></div></div><div class="article-entry marked-body" itemprop="articleBody"><h1 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h1><pre><code>1. web相关概念
+<!-- build time:Fri May 31 2019 23:53:13 GMT+0100 (GMT+01:00) --><!DOCTYPE html><html lang="zh"><head><meta name="generator" content="Hexo 3.8.0"><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui"><meta name="renderer" content="webkit"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no,email=no,adress=no"><meta name="theme-color" content="#000000"><meta http-equiv="window-target" content="_top"><title>JavaWeb基础知识总结 | 东东东的小站</title><meta name="description" content="主要内容1. web相关概念 2. web服务器软件：Tomcat 3. Servlet入门学习 4. HTTP协议：响应消息 5. Request对象 6. Response对象 7. 用户登录案例 8. ServletContext对象 9. 会话技术     1. Cookie     2. Session 10. JSP：入门学习 11. Filter：过滤器 12. Listener：监"><meta name="keywords" content="JavaWeb基础,Servlet,Tomcat,Cookie,Filter,Linsener,Request,Response"><meta property="og:type" content="article"><meta property="og:title" content="JavaWeb基础知识总结"><meta property="og:url" content="http://dongdongyan.com/2019/05/27/JavaWeb基础知识总结/index.html"><meta property="og:site_name" content="东东东的小站"><meta property="og:description" content="主要内容1. web相关概念 2. web服务器软件：Tomcat 3. Servlet入门学习 4. HTTP协议：响应消息 5. Request对象 6. Response对象 7. 用户登录案例 8. ServletContext对象 9. 会话技术     1. Cookie     2. Session 10. JSP：入门学习 11. Filter：过滤器 12. Listener：监"><meta property="og:locale" content="zh-CN"><meta property="og:updated_time" content="2019-05-31T22:52:36.911Z"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="JavaWeb基础知识总结"><meta name="twitter:description" content="主要内容1. web相关概念 2. web服务器软件：Tomcat 3. Servlet入门学习 4. HTTP协议：响应消息 5. Request对象 6. Response对象 7. 用户登录案例 8. ServletContext对象 9. 会话技术     1. Cookie     2. Session 10. JSP：入门学习 11. Filter：过滤器 12. Listener：监"><link rel="canonical" href="http://dongdongyan.com/2019/05/27/JavaWeb基础知识总结/index.html"><link rel="alternate" href="/atom.xml" title="东东东的小站" type="application/atom+xml"><link rel="icon" href="/images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/style.css"></head><body class="main-center" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="slimContent"><div class="navbar-header"><div class="profile-block text-center"><a id="avatar" href="https://github.com/shengdongyan" target="_blank" rel="external nofollow noopener noreferrer"><img class="img-circle img-rotate" src="/images/avatar.jpg" width="200" height="200"></a><h2 id="name" class="hidden-xs hidden-sm">东东东</h2><h3 id="title" class="hidden-xs hidden-sm hidden-md">A Java Developer</h3><small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Birmingham, UK</small></div><div class="search" id="search-form-wrap"><form class="search-form sidebar-form"><div class="input-group"><input type="text" class="search-form-input form-control" placeholder="搜索"> <span class="input-group-btn"><button type="submit" class="search-form-submit btn btn-flat" onclick="return!1"><i class="icon icon-search"></i></button></span></div></form><div class="ins-search"><div class="ins-search-mask"></div><div class="ins-search-container"><div class="ins-input-wrapper"><input type="text" class="ins-search-input" placeholder="想要查找什么..." x-webkit-speech> <button type="button" class="close ins-close ins-selectable" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div><div class="ins-section-wrapper"><div class="ins-section-container"></div></div></div></div></div><button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button></div><nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation"><ul class="nav navbar-nav main-nav"><li class="menu-item menu-item-home"><a href="/."><i class="icon icon-home-fill"></i> <span class="menu-title">首页</span></a></li><li class="menu-item menu-item-archives"><a href="/archives"><i class="icon icon-archives-fill"></i> <span class="menu-title">归档</span></a></li><li class="menu-item menu-item-categories"><a href="/categories"><i class="icon icon-folder"></i> <span class="menu-title">分类</span></a></li><li class="menu-item menu-item-tags"><a href="/tags"><i class="icon icon-tags"></i> <span class="menu-title">标签</span></a></li><li class="menu-item menu-item-repository"><a href="/repository"><i class="icon icon-project"></i> <span class="menu-title">项目</span></a></li><li class="menu-item menu-item-photo"><a href="/photo"><i class="icon icon-book-fill"></i> <span class="menu-title">相册</span></a></li><li class="menu-item menu-item-links"><a href="/links"><i class="icon icon-friendship"></i> <span class="menu-title">友链</span></a></li><li class="menu-item menu-item-about"><a href="/about"><i class="icon icon-cup-fill"></i> <span class="menu-title">关于</span></a></li></ul><ul class="social-links"><li><a href="https://github.com/shengdongyan" target="_blank" title="Github" data-toggle="tooltip" data-placement="top" rel="external nofollow noopener noreferrer"><i class="icon icon-github"></i></a></li><li><a href="https://www.zhihu.com/people/dong-dong-yan-28" target="_blank" title="Zhihu" data-toggle="tooltip" data-placement="top" rel="external nofollow noopener noreferrer"><i class="icon icon-zhihu"></i></a></li><li><a href="https://user.qzone.qq.com/516639611" target="_blank" title="Qzone" data-toggle="tooltip" data-placement="top" rel="external nofollow noopener noreferrer"><i class="icon icon-qzone"></i></a></li><li><a href="https://www.weibo.com/p/1005055828209433/home?from=page_100505&mod=TAB&is_hot=1#place" target="_blank" title="Weibo" data-toggle="tooltip" data-placement="top" rel="external nofollow noopener noreferrer"><i class="icon icon-weibo"></i></a></li><li><a href="https://www.facebook.com/shengdong.yan" target="_blank" title="Facebook" data-toggle="tooltip" data-placement="top" rel="external nofollow noopener noreferrer"><i class="icon icon-facebook"></i></a></li><li><a href="/atom.xml" target="_blank" title="Rss" data-toggle="tooltip" data-placement="top"><i class="icon icon-rss"></i></a></li></ul></nav></div></header><aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar"><div class="slimContent"><div class="widget"><h3 class="widget-title">公告</h3><div class="widget-body"><div id="board"><div class="content"><p style="width:200px">东东东：博主本科毕业于北邮，研究生就读于英国伯明翰大学，即将步入职场，未来希望可以从事Java开发的相关工作。目前主要在这里记录学习笔记和生活随笔，下面是我的微信，欢迎交流与分享经验!</p><br><img class="img-rotate" src="/images/QrCode.jpeg" width="180" height="180"></div></div></div></div><div class="widget"><h3 class="widget-title">分类</h3><div class="widget-body"><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Java/">Java</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/JavaWeb/">JavaWeb</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/数据库/">数据库</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/日常随笔/">日常随笔</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/计算机基础知识/">计算机基础知识</a><span class="category-list-count">2</span></li></ul></div></div><div class="widget"><h3 class="widget-title">标签</h3><div class="widget-body"><ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Cookie/">Cookie</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Filter/">Filter</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo主题/">Hexo主题</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JavaWeb基础/">JavaWeb基础</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Java基础/">Java基础</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Java基础，-Collection框架，Java容器/">Java基础， Collection框架，Java容器</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Java问题/">Java问题</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Lambda表达式，JDK1-8，Function-Stream/">Lambda表达式，JDK1.8，Function,Stream</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linsener/">Linsener</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Request/">Request</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Response/">Response</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SE/">SE</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Servlet/">Servlet</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Tomcat/">Tomcat</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/UML/">UML</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/">markdown</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/建站/">建站</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/数据库三范式，事物四大特性，隔开级别/">数据库三范式，事物四大特性，隔开级别</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/编程语言/">编程语言</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/计算机基础/">计算机基础</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/随笔/">随笔</a><span class="tag-list-count">3</span></li></ul></div></div><div class="widget"><h3 class="widget-title">标签云</h3><div class="widget-body tagcloud"><a href="/tags/Cookie/" style="font-size:13px">Cookie</a> <a href="/tags/Filter/" style="font-size:13px">Filter</a> <a href="/tags/Hexo/" style="font-size:14px">Hexo</a> <a href="/tags/Hexo主题/" style="font-size:13px">Hexo主题</a> <a href="/tags/JavaWeb基础/" style="font-size:13px">JavaWeb基础</a> <a href="/tags/Java基础/" style="font-size:13px">Java基础</a> <a href="/tags/Java基础，-Collection框架，Java容器/" style="font-size:13px">Java基础， Collection框架，Java容器</a> <a href="/tags/Java问题/" style="font-size:13px">Java问题</a> <a href="/tags/Lambda表达式，JDK1-8，Function-Stream/" style="font-size:13px">Lambda表达式，JDK1.8，Function,Stream</a> <a href="/tags/Linsener/" style="font-size:13px">Linsener</a> <a href="/tags/Request/" style="font-size:13px">Request</a> <a href="/tags/Response/" style="font-size:13px">Response</a> <a href="/tags/SE/" style="font-size:13px">SE</a> <a href="/tags/Servlet/" style="font-size:13px">Servlet</a> <a href="/tags/Tomcat/" style="font-size:13px">Tomcat</a> <a href="/tags/UML/" style="font-size:13px">UML</a> <a href="/tags/markdown/" style="font-size:13px">markdown</a> <a href="/tags/建站/" style="font-size:14px">建站</a> <a href="/tags/数据库三范式，事物四大特性，隔开级别/" style="font-size:13px">数据库三范式，事物四大特性，隔开级别</a> <a href="/tags/编程语言/" style="font-size:13px">编程语言</a> <a href="/tags/计算机基础/" style="font-size:13px">计算机基础</a> <a href="/tags/随笔/" style="font-size:13.5px">随笔</a></div></div><div class="widget"><h3 class="widget-title">归档</h3><div class="widget-body"><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/">五月 2019</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">四月 2019</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">三月 2019</a><span class="archive-list-count">2</span></li></ul></div></div><div class="widget"><h3 class="widget-title">最新文章</h3><div class="widget-body"><ul class="recent-post-list list-unstyled no-thumbnail"><li><div class="item-inner"><p class="item-category"><a class="category-link" href="/categories/JavaWeb/">JavaWeb</a></p><p class="item-title"><a href="/2019/05/27/JavaWeb基础知识总结/" class="title">JavaWeb基础知识总结</a></p><p class="item-date"><time datetime="2019-05-27T15:20:31.000Z" itemprop="datePublished">2019-05-27</time></p></div></li><li><div class="item-inner"><p class="item-category"><a class="category-link" href="/categories/Java/">Java</a></p><p class="item-title"><a href="/2019/05/15/Java1.8 Lambda表达式+Function+Stream/" class="title">Java1.8 Lambda表达式+Function+Stream</a></p><p class="item-date"><time datetime="2019-05-15T21:41:02.000Z" itemprop="datePublished">2019-05-15</time></p></div></li><li><div class="item-inner"><p class="item-category"><a class="category-link" href="/categories/数据库/">数据库</a></p><p class="item-title"><a href="/2019/05/08/数据库基础知识笔记/" class="title">数据库基础知识笔记</a></p><p class="item-date"><time datetime="2019-05-08T21:41:02.000Z" itemprop="datePublished">2019-05-08</time></p></div></li><li><div class="item-inner"><p class="item-category"></p><p class="item-title"><a href="/2019/05/02/LeetCode刷题笔记/" class="title">LeetCode刷题笔记</a></p><p class="item-date"><time datetime="2019-05-02T22:34:50.000Z" itemprop="datePublished">2019-05-02</time></p></div></li><li><div class="item-inner"><p class="item-category"><a class="category-link" href="/categories/Java/">Java</a></p><p class="item-title"><a href="/2019/04/16/Java基础知识（持续更新）/" class="title">Java基础知识（持续更新）</a></p><p class="item-date"><time datetime="2019-04-16T15:20:31.000Z" itemprop="datePublished">2019-04-16</time></p></div></li></ul></div></div></div></aside><aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar"><div class="slimContent"><nav id="toc" class="article-toc"><h3 class="toc-title">文章目录</h3><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#主要内容"><span class="toc-number">1.</span> <span class="toc-text">主要内容</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#web相关概念"><span class="toc-number">1.1.</span> <span class="toc-text">web相关概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#web服务器软件："><span class="toc-number">1.2.</span> <span class="toc-text">web服务器软件：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Servlet：-server-applet"><span class="toc-number">1.3.</span> <span class="toc-text">Servlet： server applet</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#IDEA与tomcat的相关配置"><span class="toc-number">1.4.</span> <span class="toc-text">IDEA与tomcat的相关配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#HTTP："><span class="toc-number">1.5.</span> <span class="toc-text">HTTP：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Request："><span class="toc-number">1.6.</span> <span class="toc-text">Request：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Response对象"><span class="toc-number">1.7.</span> <span class="toc-text">Response对象</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#案例：用户登录"><span class="toc-number">1.7.1.</span> <span class="toc-text">案例：用户登录</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ServletContext对象："><span class="toc-number">1.8.</span> <span class="toc-text">ServletContext对象：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#案例："><span class="toc-number">1.9.</span> <span class="toc-text">案例：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#会话技术"><span class="toc-number">1.10.</span> <span class="toc-text">会话技术</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Cookie："><span class="toc-number">1.11.</span> <span class="toc-text">Cookie：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JSP：入门学习"><span class="toc-number">1.12.</span> <span class="toc-text">JSP：入门学习</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Session：主菜"><span class="toc-number">1.13.</span> <span class="toc-text">Session：主菜</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Filter：过滤器"><span class="toc-number">2.</span> <span class="toc-text">Filter：过滤器</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Listener：监听器"><span class="toc-number">2.1.</span> <span class="toc-text">Listener：监听器</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Redis"><span class="toc-number">3.</span> <span class="toc-text">Redis</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#案例：-1"><span class="toc-number">3.1.</span> <span class="toc-text">案例：</span></a></li></ol></li></ol></nav></div></aside><main class="main" role="main"><div class="content"><article id="post-JavaWeb基础知识总结" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting"><div class="article-header"><h1 class="article-title" itemprop="name">JavaWeb基础知识总结</h1><div class="article-meta"><span class="article-date"><i class="icon icon-calendar-check"></i> <a href="/2019/05/27/JavaWeb基础知识总结/" class="article-date"><time datetime="2019-05-27T15:20:31.000Z" itemprop="datePublished">2019-05-27</time></a></span> <span class="article-category"><i class="icon icon-folder"></i> <a class="article-category-link" href="/categories/JavaWeb/">JavaWeb</a></span> <span class="article-tag"><i class="icon icon-tags"></i> <a class="article-tag-link" href="/tags/Cookie/">Cookie</a>, <a class="article-tag-link" href="/tags/Filter/">Filter</a>, <a class="article-tag-link" href="/tags/JavaWeb基础/">JavaWeb基础</a>, <a class="article-tag-link" href="/tags/Linsener/">Linsener</a>, <a class="article-tag-link" href="/tags/Request/">Request</a>, <a class="article-tag-link" href="/tags/Response/">Response</a>, <a class="article-tag-link" href="/tags/Servlet/">Servlet</a>, <a class="article-tag-link" href="/tags/Tomcat/">Tomcat</a></span> <span class="article-read hidden-xs"><i class="icon icon-eye-fill" aria-hidden="true"></i> <span id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv">0</span></span></span> <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2019/05/27/JavaWeb基础知识总结/#comments" class="article-comment-link">评论</a></span> <span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 12.3k(字)</span> <span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 51(分)</span></div></div><div class="article-entry marked-body" itemprop="articleBody"><h1 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h1><pre><code>1. web相关概念
 2. web服务器软件：Tomcat
 3. Servlet入门学习
 4. HTTP协议：响应消息
 5. Request对象
 6. Response对象
-7. ServletContext对象
-8. 会话技术
+7. 用户登录案例
+8. ServletContext对象
+9. 会话技术
     1. Cookie
     2. Session
-9. JSP：入门学习
+10. JSP：入门学习
+11. Filter：过滤器
+12. Listener：监听器
+13. Redis
 </code></pre><h2 id="web相关概念"><a href="#web相关概念" class="headerlink" title="web相关概念"></a>web相关概念</h2><pre><code>1. 软件架构
     1. C/S：客户端/服务器端
     2. B/S：浏览器/服务器端: 好处，不用单独再开发客户端软件，维护简单，开发快速
@@ -427,6 +431,286 @@
     4. 验证码
         1. 本质：图片
         2. 目的：防止恶意表单注册
+</code></pre><h3 id="案例：用户登录"><a href="#案例：用户登录" class="headerlink" title="案例：用户登录"></a>案例：用户登录</h3><pre><code>* 用户登录案例需求：
+    1.编写login.html登录页面
+        username &amp; password 两个输入框
+    2.使用Druid数据库连接池技术,操作mysql，day14数据库中user表
+    3.使用JdbcTemplate技术封装JDBC
+    4.登录成功跳转到SuccessServlet展示：登录成功！用户名,欢迎您
+    5.登录失败跳转到FailServlet展示：登录失败，用户名或密码错误
+
+
+* 分析
+
+* 开发步骤
+    1. 创建项目，导入html页面，配置文件，jar包
+    2. 创建数据库环境
+        CREATE DATABASE day14;
+        USE day14;
+        CREATE TABLE USER(
+
+            id INT PRIMARY KEY AUTO_INCREMENT,
+            username VARCHAR(32) UNIQUE NOT NULL,
+            PASSWORD VARCHAR(32) NOT NULL
+        );
+
+    3. 创建包cn.itcast.domain,创建类User
+        package cn.itcast.domain;
+        /**
+         * 用户的实体类
+         */
+        public class User {
+
+            private int id;
+            private String username;
+            private String password;
+
+
+            public int getId() {
+                return id;
+            }
+
+            public void setId(int id) {
+                this.id = id;
+            }
+
+            public String getUsername() {
+                return username;
+            }
+
+            public void setUsername(String username) {
+                this.username = username;
+            }
+
+            public String getPassword() {
+                return password;
+            }
+
+            public void setPassword(String password) {
+                this.password = password;
+            }
+
+            @Override
+            public String toString() {
+                return &quot;User{&quot; +
+                        &quot;id=&quot; + id +
+                        &quot;, username=&apos;&quot; + username + &apos;\&apos;&apos; +
+                        &quot;, password=&apos;&quot; + password + &apos;\&apos;&apos; +
+                        &apos;}&apos;;
+            }
+        }
+    4. 创建包cn.itcast.util,编写工具类JDBCUtils
+        package cn.itcast.util;
+
+        import com.alibaba.druid.pool.DruidDataSourceFactory;
+
+        import javax.sql.DataSource;
+        import javax.xml.crypto.Data;
+        import java.io.IOException;
+        import java.io.InputStream;
+        import java.sql.Connection;
+        import java.sql.SQLException;
+        import java.util.Properties;
+
+        /**
+         * JDBC工具类 使用Durid连接池
+         */
+        public class JDBCUtils {
+
+            private static DataSource ds ;
+
+            static {
+
+                try {
+                    //1.加载配置文件
+                    Properties pro = new Properties();
+                    //使用ClassLoader加载配置文件，获取字节输入流
+                    InputStream is = JDBCUtils.class.getClassLoader().getResourceAsStream(&quot;druid.properties&quot;);
+                    pro.load(is);
+
+                    //2.初始化连接池对象
+                    ds = DruidDataSourceFactory.createDataSource(pro);
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+
+            /**
+             * 获取连接池对象
+             */
+            public static DataSource getDataSource(){
+                return ds;
+            }
+
+
+            /**
+             * 获取连接Connection对象
+             */
+            public static Connection getConnection() throws SQLException {
+                return  ds.getConnection();
+            }
+        }
+    5. 创建包cn.itcast.dao,创建类UserDao,提供login方法
+
+        package cn.itcast.dao;
+
+        import cn.itcast.domain.User;
+        import cn.itcast.util.JDBCUtils;
+        import org.springframework.dao.DataAccessException;
+        import org.springframework.jdbc.core.BeanPropertyRowMapper;
+        import org.springframework.jdbc.core.JdbcTemplate;
+
+        /**
+         * 操作数据库中User表的类
+         */
+        public class UserDao {
+
+            //声明JDBCTemplate对象共用
+            private JdbcTemplate template = new JdbcTemplate(JDBCUtils.getDataSource());
+
+            /**
+             * 登录方法
+             * @param loginUser 只有用户名和密码
+             * @return user包含用户全部数据,没有查询到，返回null
+             */
+            public User login(User loginUser){
+                try {
+                    //1.编写sql
+                    String sql = &quot;select * from user where username = ? and password = ?&quot;;
+                    //2.调用query方法
+                    User user = template.queryForObject(sql,
+                            new BeanPropertyRowMapper&lt;User&gt;(User.class),
+                            loginUser.getUsername(), loginUser.getPassword());
+
+
+                    return user;
+                } catch (DataAccessException e) {
+                    e.printStackTrace();//记录日志
+                    return null;
+                }
+            }
+        }
+
+    6. 编写cn.itcast.web.servlet.LoginServlet类
+        package cn.itcast.web.servlet;
+
+        import cn.itcast.dao.UserDao;
+        import cn.itcast.domain.User;
+
+        import javax.servlet.ServletException;
+        import javax.servlet.annotation.WebServlet;
+        import javax.servlet.http.HttpServlet;
+        import javax.servlet.http.HttpServletRequest;
+        import javax.servlet.http.HttpServletResponse;
+        import java.io.IOException;
+
+
+        @WebServlet(&quot;/loginServlet&quot;)
+        public class LoginServlet extends HttpServlet {
+
+
+            @Override
+            protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                //1.设置编码
+                req.setCharacterEncoding(&quot;utf-8&quot;);
+                //2.获取请求参数
+                String username = req.getParameter(&quot;username&quot;);
+                String password = req.getParameter(&quot;password&quot;);
+                //3.封装user对象
+                User loginUser = new User();
+                loginUser.setUsername(username);
+                loginUser.setPassword(password);
+
+                //4.调用UserDao的login方法
+                UserDao dao = new UserDao();
+                User user = dao.login(loginUser);
+
+                //5.判断user
+                if(user == null){
+                    //登录失败
+                    req.getRequestDispatcher(&quot;/failServlet&quot;).forward(req,resp);
+                }else{
+                    //登录成功
+                    //存储数据
+                    req.setAttribute(&quot;user&quot;,user);
+                    //转发
+                    req.getRequestDispatcher(&quot;/successServlet&quot;).forward(req,resp);
+                }
+
+            }
+
+            @Override
+            protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                this.doGet(req,resp);
+            }
+        }
+
+    7. 编写FailServlet和SuccessServlet类
+        @WebServlet(&quot;/successServlet&quot;)
+        public class SuccessServlet extends HttpServlet {
+            protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+                //获取request域中共享的user对象
+                User user = (User) request.getAttribute(&quot;user&quot;);
+
+                if(user != null){
+                    //给页面写一句话
+
+                    //设置编码
+                    response.setContentType(&quot;text/html;charset=utf-8&quot;);
+                    //输出
+                    response.getWriter().write(&quot;登录成功！&quot;+user.getUsername()+&quot;,欢迎您&quot;);
+                }
+
+
+            }        
+
+
+        @WebServlet(&quot;/failServlet&quot;)
+        public class FailServlet extends HttpServlet {
+            protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+                //给页面写一句话
+
+                //设置编码
+                response.setContentType(&quot;text/html;charset=utf-8&quot;);
+                //输出
+                response.getWriter().write(&quot;登录失败，用户名或密码错误&quot;);
+
+            }
+
+            protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+                this.doPost(request,response);
+            }
+        }
+
+
+
+    8. login.html中form表单的action路径的写法
+        * 虚拟目录+Servlet的资源路径
+
+    9. BeanUtils工具类，简化数据封装
+        * 用于封装JavaBean的
+        1. JavaBean：标准的Java类
+            1. 要求：
+                1. 类必须被public修饰
+                2. 必须提供空参的构造器
+                3. 成员变量必须使用private修饰
+                4. 提供公共setter和getter方法
+            2. 功能：封装数据
+
+
+        2. 概念：
+            成员变量：
+            属性：setter和getter方法截取后的产物
+                例如：getUsername() --&gt; Username--&gt; username
+
+
+        3. 方法：
+            1. setProperty()
+            2. getProperty()
+            3. populate(Object obj , Map map):将map集合的键值对信息，封装到对应的JavaBean对象中
 </code></pre><h2 id="ServletContext对象："><a href="#ServletContext对象：" class="headerlink" title="ServletContext对象："></a>ServletContext对象：</h2><pre><code>1. 概念：代表整个web应用，可以和程序的容器(服务器)来通信
 2. 获取：
     1. 通过request对象获取
@@ -656,7 +940,7 @@
 
 
 2. 原理
-    * JSP本质上就是一个Servlet
+    * JSP本质上就是一个Servlet,收到请求后先看是否有对应的JSP文件，如果有就自动转换为Java文件并编译运行转换成Servelet类，类中一直自动写response.write(&lt;html&gt;信息)。
 
 3. JSP的脚本：JSP定义Java代码的方式
     1. &lt;%  代码 %&gt;：定义的java代码，在service方法中。service方法中可以定义什么，该脚本中就可以定义什么。
@@ -721,4 +1005,569 @@
         1. session存储数据在服务器端，Cookie在客户端
         2. session没有数据大小限制，Cookie有
         3. session数据安全，Cookie相对于不安全
+</code></pre><h1 id="Filter：过滤器"><a href="#Filter：过滤器" class="headerlink" title="Filter：过滤器"></a>Filter：过滤器</h1><pre><code>1. 概念：
+    * 生活中的过滤器：净水器,空气净化器，土匪、
+    * web中的过滤器：当访问服务器的资源时，过滤器可以将请求拦截下来，完成一些特殊的功能。
+    * 过滤器的作用：
+        * 一般用于完成通用的操作。如：登录验证、统一编码处理、敏感字符过滤...
+
+2. 快速入门：
+    1. 步骤：
+        1. 定义一个类，实现接口Filter
+        2. 复写方法
+        3. 配置拦截路径
+            1. web.xml
+            2. 注解
+    2. 代码：
+        @WebFilter(&quot;/*&quot;)//访问所有资源之前，都会执行该过滤器
+        public class FilterDemo1 implements Filter {
+            @Override
+            public void init(FilterConfig filterConfig) throws ServletException {
+
+            }
+
+            @Override
+            public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
+                System.out.println(&quot;filterDemo1被执行了....&quot;);
+
+
+                //放行
+                filterChain.doFilter(servletRequest,servletResponse);
+
+            }
+
+            @Override
+            public void destroy() {
+
+            }
+        }
+
+
+3. 过滤器细节：
+    1. web.xml配置    
+        &lt;filter&gt;
+            &lt;filter-name&gt;demo1&lt;/filter-name&gt;
+            &lt;filter-class&gt;cn.itcast.web.filter.FilterDemo1&lt;/filter-class&gt;
+        &lt;/filter&gt;
+        &lt;filter-mapping&gt;
+            &lt;filter-name&gt;demo1&lt;/filter-name&gt;
+            &lt;!-- 拦截路径 --&gt;
+            &lt;url-pattern&gt;/*&lt;/url-pattern&gt;
+        &lt;/filter-mapping&gt;
+    2. 过滤器执行流程
+        1. 执行过滤器
+        2. 执行放行后的资源
+        3. 回来执行过滤器放行代码下边的代码
+    3. 过滤器生命周期方法
+        1. init:在服务器启动后，会创建Filter对象，然后调用init方法。只执行一次。用于加载资源
+        2. doFilter:每一次请求被拦截资源时，会执行。执行多次
+        3. destroy:在服务器关闭后，Filter对象被销毁。如果服务器是正常关闭，则会执行destroy方法。只执行一次。用于释放资源
+    4. 过滤器配置详解
+        * 拦截路径配置：
+            1. 具体资源路径： /index.jsp   只有访问index.jsp资源时，过滤器才会被执行
+            2. 拦截目录： /user/*    访问/user下的所有资源时，过滤器都会被执行
+            3. 后缀名拦截： *.jsp        访问所有后缀名为jsp资源时，过滤器都会被执行
+            4. 拦截所有资源：/*        访问所有资源时，过滤器都会被执行
+        * 拦截方式配置：资源被访问的方式
+            * 注解配置：
+                * 设置dispatcherTypes属性
+                    1. REQUEST：默认值。浏览器直接请求资源
+                    2. FORWARD：转发访问资源
+                    3. INCLUDE：包含访问资源
+                    4. ERROR：错误跳转资源
+                    5. ASYNC：异步访问资源
+            * web.xml配置
+                * 设置&lt;dispatcher&gt;&lt;/dispatcher&gt;标签即可
+
+    5. 过滤器链(配置多个过滤器)
+        * 执行顺序：如果有两个过滤器：过滤器1和过滤器2
+            1. 过滤器1
+            2. 过滤器2
+            3. 资源执行
+            4. 过滤器2
+            5. 过滤器1 
+
+        * 过滤器先后顺序问题：
+            1. 注解配置：按照类名的字符串比较规则比较，值小的先执行
+                * 如： AFilter 和 BFilter，AFilter就先执行了。
+            2. web.xml配置： &lt;filter-mapping&gt;谁定义在上边，谁先执行
+4. 案例：
+    1. 案例1_登录验证
+        * 需求：
+            1. 访问day17_case案例的资源。验证其是否登录
+            2. 如果登录了，则直接放行。
+            3. 如果没有登录，则跳转到登录页面，提示&quot;您尚未登录，请先登录&quot;。
+
+
+
+    2. 案例2_敏感词汇过滤
+        * 需求：
+            1. 对day17_case案例录入的数据进行敏感词汇过滤
+            2. 敏感词汇参考《敏感词汇.txt》
+            3. 如果是敏感词汇，替换为 *** 
+
+        * 分析：
+            1. 对request对象进行增强。增强获取参数相关方法
+            2. 放行。传递代理对象
+
+
+        * 增强对象的功能：
+            * 设计模式：一些通用的解决固定问题的方式
+            1. 装饰模式
+            2. 代理模式
+                * 概念：
+                    1. 真实对象：被代理的对象
+                    2. 代理对象：
+                    3. 代理模式：代理对象代理真实对象，达到增强真实对象功能的目的
+                 * 实现方式：
+                     1. 静态代理：有一个类文件描述代理模式
+                     2. 动态代理：在内存中形成代理类
+                        * 实现步骤：
+                            1. 代理对象和真实对象实现相同的接口
+                            2. 代理对象 = Proxy.newProxyInstance();
+                            3. 使用代理对象调用方法。
+                            4. 增强方法
+
+                        * 增强方式：
+                            1. 增强参数列表
+                            2. 增强返回值类型
+                            3. 增强方法体执行逻辑    
+</code></pre><h2 id="Listener：监听器"><a href="#Listener：监听器" class="headerlink" title="Listener：监听器"></a>Listener：监听器</h2><pre><code>* 概念：web的三大组件之一。
+    * 事件监听机制
+        * 事件    ：一件事情
+        * 事件源 ：事件发生的地方
+        * 监听器 ：一个对象
+        * 注册监听：将事件、事件源、监听器绑定在一起。 当事件源上发生某个事件后，执行监听器代码
+
+
+* ServletContextListener:监听ServletContext对象的创建和销毁
+    * 方法：
+        * void contextDestroyed(ServletContextEvent sce) ：ServletContext对象被销毁之前会调用该方法
+        * void contextInitialized(ServletContextEvent sce) ：ServletContext对象创建后会调用该方法
+    * 步骤：
+        1. 定义一个类，实现ServletContextListener接口
+        2. 复写方法
+        3. 配置
+            1. web.xml
+                    &lt;listener&gt;
+                      &lt;listener-class&gt;cn.itcast.web.listener.ContextLoaderListener&lt;/listener-class&gt;
+                       &lt;/listener&gt;
+
+                    * 指定初始化参数&lt;context-param&gt;
+            2. 注解：
+                * @WebListener
+</code></pre><h1 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h1><ol><li>概念</li><li>下载安装</li><li>命令操作<ol><li>数据结构</li></ol></li><li>持久化操作</li><li><p>使用Java客户端操作redis</p><ol><li>概念： redis是一款高性能的NOSQL系列的非关系型数据库</li></ol></li></ol><pre><code>    1.1.什么是NOSQL
+        NoSQL(NoSQL = Not Only SQL)，意即“不仅仅是SQL”，是一项全新的数据库理念，泛指非关系型的数据库。
+        随着互联网web2.0网站的兴起，传统的关系数据库在应付web2.0网站，特别是超大规模和高并发的SNS类型的web2.0纯动态网站已经显得力不从心，暴露了很多难以克服的问题，而非关系型的数据库则由于其本身的特点得到了非常迅速的发展。NoSQL数据库的产生就是为了解决大规模数据集合多重数据种类带来的挑战，尤其是大数据应用难题。
+
+        1.1.1.    NOSQL和关系型数据库比较
+            优点：
+                1）成本：nosql数据库简单易部署，基本都是开源软件，不需要像使用oracle那样花费大量成本购买使用，相比关系型数据库价格便宜。
+                2）查询速度：nosql数据库将数据存储于缓存之中，关系型数据库将数据存储在硬盘中，自然查询速度远不及nosql数据库。
+                3）存储数据的格式：nosql的存储格式是key,value形式、文档形式、图片形式等等，所以可以存储基础类型以及对象或者是集合等各种格式，而数据库则只支持基础类型。
+                4）扩展性：关系型数据库有类似join这样的多表查询机制的限制导致扩展很艰难。
+
+            缺点：
+                1）维护的工具和资料有限，因为nosql是属于新的技术，不能和关系型数据库10几年的技术同日而语。
+                2）不提供对sql的支持，如果不支持sql这样的工业标准，将产生一定用户的学习和使用成本。
+                3）不提供关系型数据库对事务的处理。
+
+        1.1.2.    非关系型数据库的优势：
+            1）性能NOSQL是基于键值对的，可以想象成表中的主键和值的对应关系，而且不需要经过SQL层的解析，所以性能非常高。
+            2）可扩展性同样也是因为基于键值对，数据之间没有耦合性，所以非常容易水平扩展。
+
+        1.1.3.    关系型数据库的优势：
+            1）复杂查询可以用SQL语句方便的在一个表以及多个表之间做非常复杂的数据查询。
+            2）事务支持使得对于安全性能很高的数据访问要求得以实现。对于这两类数据库，对方的优势就是自己的弱势，反之亦然。
+
+        1.1.4.    总结
+            关系型数据库与NoSQL数据库并非对立而是互补的关系，即通常情况下使用关系型数据库，在适合使用NoSQL的时候使用NoSQL数据库，
+            让NoSQL数据库对关系型数据库的不足进行弥补。
+            一般会将数据存储在关系型数据库中，在nosql数据库中备份存储关系型数据库的数据
+
+    1.2.主流的NOSQL产品
+        •    键值(Key-Value)存储数据库
+                相关产品： Tokyo Cabinet/Tyrant、Redis、Voldemort、Berkeley DB
+                典型应用： 内容缓存，主要用于处理大量数据的高访问负载。 
+                数据模型： 一系列键值对
+                优势： 快速查询
+                劣势： 存储的数据缺少结构化
+        •    列存储数据库
+                相关产品：Cassandra, HBase, Riak
+                典型应用：分布式的文件系统
+                数据模型：以列簇式存储，将同一列数据存在一起
+                优势：查找速度快，可扩展性强，更容易进行分布式扩展
+                劣势：功能相对局限
+        •    文档型数据库
+                相关产品：CouchDB、MongoDB
+                典型应用：Web应用（与Key-Value类似，Value是结构化的）
+                数据模型： 一系列键值对
+                优势：数据结构要求不严格
+                劣势： 查询性能不高，而且缺乏统一的查询语法
+        •    图形(Graph)数据库
+                相关数据库：Neo4J、InfoGrid、Infinite Graph
+                典型应用：社交网络
+                数据模型：图结构
+                优势：利用图结构相关算法。
+                劣势：需要对整个图做计算才能得出结果，不容易做分布式的集群方案。
+    1.3 什么是Redis
+        Redis是用C语言开发的一个开源的高性能键值对（key-value）数据库，官方提供测试数据，50个并发执行100000个请求,读的速度是110000次/s,写的速度是81000次/s ，且Redis通过提供多种键值数据类型来适应不同场景下的存储需求，目前为止Redis支持的键值数据类型如下：
+            1) 字符串类型 string
+            2) 哈希类型 hash
+            3) 列表类型 list
+            4) 集合类型 set
+            5) 有序集合类型 sortedset
+        1.3.1 redis的应用场景
+            •    缓存（数据查询、短连接、新闻内容、商品内容等等）
+            •    聊天室的在线好友列表
+            •    任务队列。（秒杀、抢购、12306等等）
+            •    应用排行榜
+            •    网站访问统计
+            •    数据过期处理（可以精确到毫秒
+            •    分布式集群架构中的session分离
+
+
+2. 下载安装
+    1. 官网：https://redis.io
+    2. 中文网：http://www.redis.net.cn/
+    3. 解压直接可以使用：
+        * redis.windows.conf：配置文件
+        * redis-cli.exe：redis的客户端
+        * redis-server.exe：redis服务器端
+
+3. 命令操作
+    1. redis的数据结构：
+        * redis存储的是：key,value格式的数据，其中key都是字符串，value有5种不同的数据结构
+            * value的数据结构：
+                1) 字符串类型 string
+                2) 哈希类型 hash ： map格式  
+                3) 列表类型 list ： linkedlist格式。支持重复元素
+                4) 集合类型 set  ： 不允许重复元素
+                5) 有序集合类型 sortedset：不允许重复元素，且元素有顺序
+
+    2. 字符串类型 string
+        1. 存储： set key value
+            127.0.0.1:6379&gt; set username zhangsan
+            OK
+        2. 获取： get key
+            127.0.0.1:6379&gt; get username
+            &quot;zhangsan&quot;
+        3. 删除： del key
+            127.0.0.1:6379&gt; del age
+            (integer) 1
+    3. 哈希类型 hash
+        1. 存储： hset key field value
+            127.0.0.1:6379&gt; hset myhash username lisi
+            (integer) 1
+            127.0.0.1:6379&gt; hset myhash password 123
+            (integer) 1
+        2. 获取： 
+            * hget key field: 获取指定的field对应的值
+                127.0.0.1:6379&gt; hget myhash username
+                &quot;lisi&quot;
+            * hgetall key：获取所有的field和value
+                127.0.0.1:6379&gt; hgetall myhash
+                1) &quot;username&quot;
+                2) &quot;lisi&quot;
+                3) &quot;password&quot;
+                4) &quot;123&quot;
+
+        3. 删除： hdel key field
+            127.0.0.1:6379&gt; hdel myhash username
+            (integer) 1
+
+    4. 列表类型 list:可以添加一个元素到列表的头部（左边）或者尾部（右边）
+        1. 添加：
+            1. lpush key value: 将元素加入列表左表
+
+            2. rpush key value：将元素加入列表右边
+
+                127.0.0.1:6379&gt; lpush myList a
+                (integer) 1
+                127.0.0.1:6379&gt; lpush myList b
+                (integer) 2
+                127.0.0.1:6379&gt; rpush myList c
+                (integer) 3
+        2. 获取：
+            * lrange key start end ：范围获取
+                127.0.0.1:6379&gt; lrange myList 0 -1
+                1) &quot;b&quot;
+                2) &quot;a&quot;
+                3) &quot;c&quot;
+        3. 删除：
+            * lpop key： 删除列表最左边的元素，并将元素返回
+            * rpop key： 删除列表最右边的元素，并将元素返回
+
+
+    5. 集合类型 set ： 不允许重复元素
+        1. 存储：sadd key value
+            127.0.0.1:6379&gt; sadd myset a
+            (integer) 1
+            127.0.0.1:6379&gt; sadd myset a
+            (integer) 0
+        2. 获取：smembers key:获取set集合中所有元素
+            127.0.0.1:6379&gt; smembers myset
+            1) &quot;a&quot;
+        3. 删除：srem key value:删除set集合中的某个元素    
+            127.0.0.1:6379&gt; srem myset a
+            (integer) 1
+    6. 有序集合类型 sortedset：不允许重复元素，且元素有顺序.每个元素都会关联一个double类型的分数。redis正是通过分数来为集合中的成员进行从小到大的排序。
+
+        1. 存储：zadd key score value
+            127.0.0.1:6379&gt; zadd mysort 60 zhangsan
+            (integer) 1
+            127.0.0.1:6379&gt; zadd mysort 50 lisi
+            (integer) 1
+            127.0.0.1:6379&gt; zadd mysort 80 wangwu
+            (integer) 1
+        2. 获取：zrange key start end [withscores]
+            127.0.0.1:6379&gt; zrange mysort 0 -1
+            1) &quot;lisi&quot;
+            2) &quot;zhangsan&quot;
+            3) &quot;wangwu&quot;
+
+            127.0.0.1:6379&gt; zrange mysort 0 -1 withscores
+            1) &quot;zhangsan&quot;
+            2) &quot;60&quot;
+            3) &quot;wangwu&quot;
+            4) &quot;80&quot;
+            5) &quot;lisi&quot;
+            6) &quot;500&quot;
+        3. 删除：zrem key value
+            127.0.0.1:6379&gt; zrem mysort lisi
+            (integer) 1
+
+    7. 通用命令
+        1. keys * : 查询所有的键
+        2. type key ： 获取键对应的value的类型
+        3. del key：删除指定的key value
+
+
+4. 持久化
+    1. redis是一个内存数据库，当redis服务器重启，获取电脑重启，数据会丢失，我们可以将redis内存中的数据持久化保存到硬盘的文件中。
+    2. redis持久化机制：
+        1. RDB：默认方式，不需要进行配置，默认就使用这种机制
+            * 在一定的间隔时间中，检测key的变化情况，然后持久化数据
+            1. 编辑redis.windwos.conf文件
+                #   after 900 sec (15 min) if at least 1 key changed
+                save 900 1
+                #   after 300 sec (5 min) if at least 10 keys changed
+                save 300 10
+                #   after 60 sec if at least 10000 keys changed
+                save 60 10000
+
+            2. 重新启动redis服务器，并指定配置文件名称
+                D:\JavaWeb2018\day23_redis\资料\redis\windows-64\redis-2.8.9&gt;redis-server.exe redis.windows.conf    
+
+        2. AOF：日志记录的方式，可以记录每一条命令的操作。可以每一次命令操作后，持久化数据
+            1. 编辑redis.windwos.conf文件
+                appendonly no（关闭aof） --&gt; appendonly yes （开启aof）
+
+                # appendfsync always ： 每一次操作都进行持久化
+                appendfsync everysec ： 每隔一秒进行一次持久化
+                # appendfsync no     ： 不进行持久化
+
+5. Java客户端 Jedis
+    * Jedis: 一款java操作redis数据库的工具.
+    * 使用步骤：
+        1. 下载jedis的jar包
+        2. 使用
+            //1. 获取连接
+            Jedis jedis = new Jedis(&quot;localhost&quot;,6379);
+               //2. 操作
+               jedis.set(&quot;username&quot;,&quot;zhangsan&quot;);
+            //3. 关闭连接
+            jedis.close();
+
+
+    * Jedis操作各种redis中的数据结构
+        1) 字符串类型 string
+            set
+            get
+
+             //1. 获取连接
+            Jedis jedis = new Jedis();//如果使用空参构造，默认值 &quot;localhost&quot;,6379端口
+            //2. 操作
+            //存储
+            jedis.set(&quot;username&quot;,&quot;zhangsan&quot;);
+            //获取
+            String username = jedis.get(&quot;username&quot;);
+            System.out.println(username);
+
+            //可以使用setex()方法存储可以指定过期时间的 key value
+            jedis.setex(&quot;activecode&quot;,20,&quot;hehe&quot;);//将activecode：hehe键值对存入redis，并且20秒后自动删除该键值对
+
+            //3. 关闭连接
+            jedis.close();
+
+        2) 哈希类型 hash ： map格式  
+            hset
+            hget
+            hgetAll
+            //1. 获取连接
+            Jedis jedis = new Jedis();//如果使用空参构造，默认值 &quot;localhost&quot;,6379端口
+            //2. 操作
+            // 存储hash
+            jedis.hset(&quot;user&quot;,&quot;name&quot;,&quot;lisi&quot;);
+            jedis.hset(&quot;user&quot;,&quot;age&quot;,&quot;23&quot;);
+            jedis.hset(&quot;user&quot;,&quot;gender&quot;,&quot;female&quot;);
+
+            // 获取hash
+            String name = jedis.hget(&quot;user&quot;, &quot;name&quot;);
+            System.out.println(name);
+
+
+            // 获取hash的所有map中的数据
+            Map&lt;String, String&gt; user = jedis.hgetAll(&quot;user&quot;);
+
+            // keyset
+            Set&lt;String&gt; keySet = user.keySet();
+            for (String key : keySet) {
+                //获取value
+                String value = user.get(key);
+                System.out.println(key + &quot;:&quot; + value);
+            }
+
+            //3. 关闭连接
+            jedis.close();
+
+
+        3) 列表类型 list ： linkedlist格式。支持重复元素
+            lpush / rpush
+            lpop / rpop
+            lrange start end : 范围获取
+
+             //1. 获取连接
+            Jedis jedis = new Jedis();//如果使用空参构造，默认值 &quot;localhost&quot;,6379端口
+            //2. 操作
+            // list 存储
+            jedis.lpush(&quot;mylist&quot;,&quot;a&quot;,&quot;b&quot;,&quot;c&quot;);//从左边存
+            jedis.rpush(&quot;mylist&quot;,&quot;a&quot;,&quot;b&quot;,&quot;c&quot;);//从右边存
+
+            // list 范围获取
+            List&lt;String&gt; mylist = jedis.lrange(&quot;mylist&quot;, 0, -1);
+            System.out.println(mylist);
+
+            // list 弹出
+            String element1 = jedis.lpop(&quot;mylist&quot;);//c
+            System.out.println(element1);
+
+            String element2 = jedis.rpop(&quot;mylist&quot;);//c
+            System.out.println(element2);
+
+            // list 范围获取
+            List&lt;String&gt; mylist2 = jedis.lrange(&quot;mylist&quot;, 0, -1);
+            System.out.println(mylist2);
+
+            //3. 关闭连接
+            jedis.close();
+
+
+        4) 集合类型 set  ： 不允许重复元素
+            sadd
+            smembers:获取所有元素
+
+            //1. 获取连接
+            Jedis jedis = new Jedis();//如果使用空参构造，默认值 &quot;localhost&quot;,6379端口
+            //2. 操作
+
+
+            // set 存储
+            jedis.sadd(&quot;myset&quot;,&quot;java&quot;,&quot;php&quot;,&quot;c++&quot;);
+
+            // set 获取
+            Set&lt;String&gt; myset = jedis.smembers(&quot;myset&quot;);
+            System.out.println(myset);
+
+            //3. 关闭连接
+            jedis.close();
+        5) 有序集合类型 sortedset：不允许重复元素，且元素有顺序
+            zadd
+            zrange
+
+            //1. 获取连接
+            Jedis jedis = new Jedis();//如果使用空参构造，默认值 &quot;localhost&quot;,6379端口
+            //2. 操作
+            // sortedset 存储
+            jedis.zadd(&quot;mysortedset&quot;,3,&quot;亚瑟&quot;);
+            jedis.zadd(&quot;mysortedset&quot;,30,&quot;后裔&quot;);
+            jedis.zadd(&quot;mysortedset&quot;,55,&quot;孙悟空&quot;);
+
+            // sortedset 获取
+            Set&lt;String&gt; mysortedset = jedis.zrange(&quot;mysortedset&quot;, 0, -1);
+
+            System.out.println(mysortedset);
+
+
+            //3. 关闭连接
+            jedis.close();
+
+
+
+    * jedis连接池： JedisPool
+        * 使用：
+            1. 创建JedisPool连接池对象
+            2. 调用方法 getResource()方法获取Jedis连接
+                //0.创建一个配置对象
+                JedisPoolConfig config = new JedisPoolConfig();
+                config.setMaxTotal(50);
+                config.setMaxIdle(10);
+
+                //1.创建Jedis连接池对象
+                JedisPool jedisPool = new JedisPool(config,&quot;localhost&quot;,6379);
+
+                //2.获取连接
+                Jedis jedis = jedisPool.getResource();
+                //3. 使用
+                jedis.set(&quot;hehe&quot;,&quot;heihei&quot;);
+
+
+                //4. 关闭 归还到连接池中
+                jedis.close();
+
+        * 连接池工具类
+            public class JedisPoolUtils {
+
+                private static JedisPool jedisPool;
+
+                static{
+                    //读取配置文件
+                    InputStream is = JedisPoolUtils.class.getClassLoader().getResourceAsStream(&quot;jedis.properties&quot;);
+                    //创建Properties对象
+                    Properties pro = new Properties();
+                    //关联文件
+                    try {
+                        pro.load(is);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    //获取数据，设置到JedisPoolConfig中
+                    JedisPoolConfig config = new JedisPoolConfig();
+                    config.setMaxTotal(Integer.parseInt(pro.getProperty(&quot;maxTotal&quot;)));
+                    config.setMaxIdle(Integer.parseInt(pro.getProperty(&quot;maxIdle&quot;)));
+
+                    //初始化JedisPool
+                    jedisPool = new JedisPool(config,pro.getProperty(&quot;host&quot;),Integer.parseInt(pro.getProperty(&quot;port&quot;)));
+
+
+
+                }
+
+
+                /**
+                 * 获取连接方法
+                 */
+                public static Jedis getJedis(){
+                    return jedisPool.getResource();
+                }
+            }
+</code></pre><h2 id="案例：-1"><a href="#案例：-1" class="headerlink" title="案例："></a>案例：</h2><pre><code>案例需求：
+    1. 提供index.html页面，页面中有一个省份 下拉列表
+    2. 当 页面加载完成后 发送ajax请求，加载所有省份
+
+
+* 注意：使用redis缓存一些不经常发生变化的数据。
+    * 数据库的数据一旦发生改变，则需要更新缓存。
+        * 数据库的表执行 增删改的相关操作，需要将redis缓存数据情况，再次存入
+        * 在service对应的增删改方法中，将redis数据删除。
 </code></pre></div><div class="article-footer"><blockquote class="mt-2x"><ul class="post-copyright list-unstyled"><li class="post-copyright-link hidden-xs"><strong>本文链接：</strong> <a href="http://dongdongyan.com/2019/05/27/JavaWeb基础知识总结/" title="JavaWeb基础知识总结" target="_blank" rel="external">http://dongdongyan.com/2019/05/27/JavaWeb基础知识总结/</a></li><li class="post-copyright-license"><strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external nofollow noopener noreferrer">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处！</li></ul></blockquote><div class="panel panel-default panel-badger"><div class="panel-body"><figure class="media"><div class="media-left"><a href="https://github.com/shengdongyan" target="_blank" class="img-burn thumb-sm visible-lg" rel="external nofollow noopener noreferrer"><img src="/images/avatar.jpg" class="img-rounded w-full" alt></a></div><div class="media-body"><h3 class="media-heading"><a href="https://github.com/shengdongyan" target="_blank" rel="external nofollow noopener noreferrer"><span class="text-dark">东东东</span><small class="ml-1x">A Java Developer</small></a></h3><div>热爱技术，享受生活，欢迎来到东东的博客。</div></div></figure></div></div></div></article><section id="comments"><div id="lv-container" data-id="city" data-uid="MTAyMC80MzUzMy8yMDA3Mg=="><noscript>为正常使用来必力评论功能请激活JavaScript</noscript></div></section></div><nav class="bar bar-footer clearfix" data-stick-bottom><div class="bar-inner"><ul class="pager pull-left"><li class="next"><a href="/2019/05/15/Java1.8 Lambda表达式+Function+Stream/" title="Java1.8 Lambda表达式+Function+Stream"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a></li><li class="toggle-toc"><a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false" title="文章目录" role="button"><span>[&nbsp;</span><span>文章目录</span> <i class="text-collapsed icon icon-anchor"></i> <i class="text-in icon icon-close"></i> <span>]</span></a></li></ul><button type="button" class="btn btn-fancy btn-donate pop-onhover bg-gradient-warning" data-toggle="modal" data-target="#donateModal"><span>赏</span></button><div class="bar-right"><div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter" data-mobile-sites="weibo,qq,qzone"></div></div></div></nav><div class="modal modal-center modal-small modal-xs-full fade" id="donateModal" tabindex="-1" role="dialog"><div class="modal-dialog" role="document"><div class="modal-content donate"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><div class="modal-body"><div class="donate-box"><div class="donate-head"><p>感谢您的支持，我会继续努力的!</p></div><div class="tab-content"><div role="tabpanel" class="tab-pane fade active in" id="alipay"><div class="donate-payimg"><img src="/images/donate/WechatIMG8.jpeg" alt="扫码支持" title="扫一扫"></div><p class="text-muted mv">扫码打赏，你说多少就多少</p><p class="text-grey">打开支付宝扫一扫，即可进行扫码打赏哦</p></div><div role="tabpanel" class="tab-pane fade" id="wechatpay"><div class="donate-payimg"><img src="/images/donate/WechatIMG5.jpeg" alt="扫码支持" title="扫一扫"></div><p class="text-muted mv">扫码打赏，你说多少就多少</p><p class="text-grey">打开微信扫一扫，即可进行扫码打赏哦</p></div></div><div class="donate-footer"><ul class="nav nav-tabs nav-justified" role="tablist"><li role="presentation" class="active"><a href="#alipay" id="alipay-tab" role="tab" data-toggle="tab" aria-controls="alipay" aria-expanded="true"><i class="icon icon-alipay"></i> 支付宝</a></li><li role="presentation"><a href="#wechatpay" role="tab" id="wechatpay-tab" data-toggle="tab" aria-controls="wechatpay" aria-expanded="false"><i class="icon icon-wepay"></i> 微信支付</a></li></ul></div></div></div></div></div></div></main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter"><ul class="social-links"><li><a href="https://github.com/shengdongyan" target="_blank" title="Github" data-toggle="tooltip" data-placement="top" rel="external nofollow noopener noreferrer"><i class="icon icon-github"></i></a></li><li><a href="https://www.zhihu.com/people/dong-dong-yan-28" target="_blank" title="Zhihu" data-toggle="tooltip" data-placement="top" rel="external nofollow noopener noreferrer"><i class="icon icon-zhihu"></i></a></li><li><a href="https://user.qzone.qq.com/516639611" target="_blank" title="Qzone" data-toggle="tooltip" data-placement="top" rel="external nofollow noopener noreferrer"><i class="icon icon-qzone"></i></a></li><li><a href="https://www.weibo.com/p/1005055828209433/home?from=page_100505&mod=TAB&is_hot=1#place" target="_blank" title="Weibo" data-toggle="tooltip" data-placement="top" rel="external nofollow noopener noreferrer"><i class="icon icon-weibo"></i></a></li><li><a href="https://www.facebook.com/shengdong.yan" target="_blank" title="Facebook" data-toggle="tooltip" data-placement="top" rel="external nofollow noopener noreferrer"><i class="icon icon-facebook"></i></a></li><li><a href="/atom.xml" target="_blank" title="Rss" data-toggle="tooltip" data-placement="top"><i class="icon icon-rss"></i></a></li></ul><div class="copyright"><div class="publishby">Theme by <a href="https://github.com/cofess" target="_blank" rel="external nofollow noopener noreferrer">cofess </a>base on <a href="https://github.com/cofess/hexo-theme-pure" target="_blank" rel="external nofollow noopener noreferrer">pure</a>.</div></div></footer><script src="//cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script><script>window.jQuery||document.write('<script src="js/jquery.min.js"><\/script>')</script><script src="/js/plugin.min.js"></script><script src="/js/application.js"></script><script>!function(T){var N={TRANSLATION:{POSTS:"文章",PAGES:"页面",CATEGORIES:"分类",TAGS:"标签",UNTITLED:"(未命名)"},ROOT_URL:"/",CONTENT_URL:"/content.json"};T.INSIGHT_CONFIG=N}(window)</script><script src="/js/insight.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script defer type="text/javascript">!function(e,t){var n,c=e.getElementsByTagName(t)[0];"function"!=typeof LivereTower&&(n=e.createElement(t),n.src="https://cdn-city.livere.com/js/embed.dist.js",n.async=!0,c.parentNode.insertBefore(n,c))}(document,"script")</script></body></html><!-- rebuild by neat -->
