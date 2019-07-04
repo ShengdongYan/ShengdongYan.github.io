@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dongdongyan.com/"/>
-  <updated>2019-07-03T14:21:47.276Z</updated>
+  <updated>2019-07-04T16:50:05.315Z</updated>
   <id>http://dongdongyan.com/</id>
   
   <author>
@@ -21,13 +21,13 @@
     <link href="http://dongdongyan.com/2019/07/01/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/"/>
     <id>http://dongdongyan.com/2019/07/01/Java基础知识（持续更新）/</id>
     <published>2019-07-01T15:20:31.000Z</published>
-    <updated>2019-07-03T14:21:47.276Z</updated>
+    <updated>2019-07-04T16:50:05.315Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Wed Jul 03 2019 17:03:46 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近在读Java圣经-Java编程思想-Thingking-in-Java-第四版，-正好以笔记的形式整理一份Java的基础知识。&quot;&gt;
+        &lt;!-- build time:Thu Jul 04 2019 17:50:31 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近在读Java圣经-Java编程思想-Thingking-in-Java-第四版，-正好以笔记的形式整理一份Java的基础知识。&quot;&gt;
       
     
     </summary>
@@ -44,13 +44,13 @@
     <link href="http://dongdongyan.com/2019/06/02/Mybatis%E5%AD%A6%E4%B9%A0%E5%8F%8A%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/"/>
     <id>http://dongdongyan.com/2019/06/02/Mybatis学习及使用笔记/</id>
     <published>2019-06-02T22:34:50.000Z</published>
-    <updated>2019-07-03T16:03:18.611Z</updated>
+    <updated>2019-07-04T16:49:48.140Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Wed Jul 03 2019 17:03:46 GMT+0100 (GMT+01:00) --&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;概述&lt;br&gt;Mybatis是一个优秀的基于 java的持久层框架，它内部封装了 jdbc，使开发者只需要关注 sql语句本身，而
+        &lt;!-- build time:Thu Jul 04 2019 17:50:31 GMT+0100 (GMT+01:00) --&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;概述&lt;br&gt;Mybatis是一个优秀的基于 java的持久层框架，它内部封装了 jdbc，使开发者只需要关注 sql语句本身，而
       
     
     </summary>
@@ -73,7 +73,7 @@
     
       
       
-        &lt;!-- build time:Wed Jul 03 2019 17:03:46 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;主要内容&quot;&gt;&lt;a href=&quot;#主要内容&quot; class=&quot;headerlink&quot; title=&quot;主要内容&quot;&gt;&lt;/a&gt;主要内容&lt;/h1&gt;
+        &lt;!-- build time:Thu Jul 04 2019 17:50:31 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;主要内容&quot;&gt;&lt;a href=&quot;#主要内容&quot; class=&quot;headerlink&quot; title=&quot;主要内容&quot;&gt;&lt;/a&gt;主要内容&lt;/h1&gt;
       
     
     </summary>
@@ -110,7 +110,7 @@
     
       
       
-        &lt;!-- build time:Wed Jul 03 2019 17:03:46 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;自Java-8-JDK1-8-，推出了几个新的重要特性，这篇博文主要介绍了-Lambda，Function-Stream这三个新特性的
+        &lt;!-- build time:Thu Jul 04 2019 17:50:31 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;自Java-8-JDK1-8-，推出了几个新的重要特性，这篇博文主要介绍了-Lambda，Function-Stream这三个新特性的
       
     
     </summary>
@@ -127,13 +127,13 @@
     <link href="http://dongdongyan.com/2019/05/08/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0/"/>
     <id>http://dongdongyan.com/2019/05/08/数据库基础知识笔记/</id>
     <published>2019-05-08T21:41:02.000Z</published>
-    <updated>2019-06-28T15:53:23.216Z</updated>
+    <updated>2019-07-04T16:50:05.314Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Wed Jul 03 2019 17:03:46 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;我个人对数据库学的比较浅，这篇博文记录了一些数据库的基础知识，主要用于个人笔记形式&quot;&gt;&lt;a href=&quot;#我个人对数据库学的比较浅，这
+        &lt;!-- build time:Thu Jul 04 2019 17:50:31 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;我个人对数据库学的比较浅，这篇博文记录了一些数据库的基础知识，主要用于个人笔记形式&quot;&gt;&lt;a href=&quot;#我个人对数据库学的比较浅，这
       
     
     </summary>
@@ -156,7 +156,7 @@
     
       
       
-        &lt;!-- build time:Wed Jul 03 2019 17:03:46 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;a href=&quot;#简介&quot;&gt;简介：&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#hash&quot;&gt;Hash:&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a hr
+        &lt;!-- build time:Thu Jul 04 2019 17:50:31 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;a href=&quot;#简介&quot;&gt;简介：&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#hash&quot;&gt;Hash:&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a hr
       
     
     </summary>
@@ -175,7 +175,7 @@
     
       
       
-        &lt;!-- build time:Wed Jul 03 2019 17:03:46 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;strong&gt;这里目前主要先用来总结一下Collection框架的基础知识，包括各个容器的优劣，使用场景等等. 这篇博客里有很多地方我自己比较
+        &lt;!-- build time:Thu Jul 04 2019 17:50:31 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;strong&gt;这里目前主要先用来总结一下Collection框架的基础知识，包括各个容器的优劣，使用场景等等. 这篇博客里有很多地方我自己比较
       
     
     </summary>
@@ -198,7 +198,7 @@
     
       
       
-        &lt;!-- build time:Wed Jul 03 2019 17:03:46 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近有场Software-Engineering考试，趁机总结一波各种UML图的画法，包括UserCase-State-Activit
+        &lt;!-- build time:Thu Jul 04 2019 17:50:31 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近有场Software-Engineering考试，趁机总结一波各种UML图的画法，包括UserCase-State-Activit
       
     
     </summary>
@@ -223,7 +223,7 @@
     
       
       
-        &lt;!-- build time:Wed Jul 03 2019 17:03:46 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;这里记录一些常见的问题以及答案，主要是针对Java面试。&quot;&gt;&lt;a href=&quot;#这里记录一些常见的问题以及答案，主要是针对Java面试
+        &lt;!-- build time:Thu Jul 04 2019 17:50:31 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;这里记录一些常见的问题以及答案，主要是针对Java面试。&quot;&gt;&lt;a href=&quot;#这里记录一些常见的问题以及答案，主要是针对Java面试
       
     
     </summary>
@@ -246,7 +246,7 @@
     
       
       
-        &lt;!-- build time:Wed Jul 03 2019 17:03:46 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;计算机语言的几种分类&lt;/p&gt;&lt;h3 id=&quot;常见的几种分类&quot;&gt;&lt;a href=&quot;#常见的几种分类&quot; class=&quot;headerlink&quot; tit
+        &lt;!-- build time:Thu Jul 04 2019 17:50:31 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;计算机语言的几种分类&lt;/p&gt;&lt;h3 id=&quot;常见的几种分类&quot;&gt;&lt;a href=&quot;#常见的几种分类&quot; class=&quot;headerlink&quot; tit
       
     
     </summary>
@@ -271,7 +271,7 @@
     
       
       
-        &lt;!-- build time:Wed Jul 03 2019 17:03:46 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;md语法已经成了程序员的一项必备技能&quot;&gt;&lt;a href=&quot;#md语法已经成了程序员的一项必备技能&quot; class=&quot;headerlink
+        &lt;!-- build time:Thu Jul 04 2019 17:50:31 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;md语法已经成了程序员的一项必备技能&quot;&gt;&lt;a href=&quot;#md语法已经成了程序员的一项必备技能&quot; class=&quot;headerlink
       
     
     </summary>
@@ -298,7 +298,7 @@
     
       
       
-        &lt;!-- build time:Wed Jul 03 2019 17:03:46 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;只是用于测试分类和标签功能&quot;&gt;&lt;a href=&quot;#只是用于测试分类和标签功能&quot; class=&quot;headerlink&quot; title=&quot;只
+        &lt;!-- build time:Thu Jul 04 2019 17:50:31 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;只是用于测试分类和标签功能&quot;&gt;&lt;a href=&quot;#只是用于测试分类和标签功能&quot; class=&quot;headerlink&quot; title=&quot;只
       
     
     </summary>
@@ -325,7 +325,7 @@
     
       
       
-        &lt;!-- build time:Wed Jul 03 2019 17:03:46 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;pure&quot;&gt;&lt;a href=&quot;#pure&quot; class=&quot;headerlink&quot; title=&quot;pure&quot;&gt;&lt;/a&gt;pure&lt;/h1&gt;
+        &lt;!-- build time:Thu Jul 04 2019 17:50:31 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;pure&quot;&gt;&lt;a href=&quot;#pure&quot; class=&quot;headerlink&quot; title=&quot;pure&quot;&gt;&lt;/a&gt;pure&lt;/h1&gt;
       
     
     </summary>
@@ -376,7 +376,7 @@
     
       
       
-        &lt;!-- build time:Wed Jul 03 2019 17:03:46 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;a href=&quot;#第一章--上&quot;&gt;第一章 上&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#二级标题测试&quot;&gt;二级标题测试&lt;/a&gt;&lt;/li&gt;
+        &lt;!-- build time:Thu Jul 04 2019 17:50:31 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;a href=&quot;#第一章--上&quot;&gt;第一章 上&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#二级标题测试&quot;&gt;二级标题测试&lt;/a&gt;&lt;/li&gt;
       
     
     </summary>
@@ -399,7 +399,7 @@
     
       
       
-        &lt;!-- build time:Wed Jul 03 2019 17:03:46 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener no
+        &lt;!-- build time:Thu Jul 04 2019 17:50:31 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener no
       
     
     </summary>
@@ -418,7 +418,7 @@
     
       
       
-        &lt;!-- build time:Wed Jul 03 2019 17:03:46 GMT+0100 (GMT+01:00) --&gt;&lt;ol&gt;&lt;li&gt;bin 文件夹&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;bin 是binary的缩写，一般用来放可执行文件，或者编译后可运行的二进制文件。 常包含 .
+        &lt;!-- build time:Thu Jul 04 2019 17:50:31 GMT+0100 (GMT+01:00) --&gt;&lt;ol&gt;&lt;li&gt;bin 文件夹&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;bin 是binary的缩写，一般用来放可执行文件，或者编译后可运行的二进制文件。 常包含 .
       
     
     </summary>
