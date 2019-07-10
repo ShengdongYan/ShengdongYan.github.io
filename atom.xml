@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dongdongyan.com/"/>
-  <updated>2019-07-09T14:29:58.689Z</updated>
+  <updated>2019-07-09T19:08:39.626Z</updated>
   <id>http://dongdongyan.com/</id>
   
   <author>
@@ -17,25 +17,50 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>SpringMVC学习笔记</title>
-    <link href="http://dongdongyan.com/2019/07/06/SpringMVC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <id>http://dongdongyan.com/2019/07/06/SpringMVC学习笔记/</id>
-    <published>2019-07-06T15:20:31.000Z</published>
-    <updated>2019-07-09T14:29:58.689Z</updated>
+    <title></title>
+    <link href="http://dongdongyan.com/2019/07/09/SpringMVC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://dongdongyan.com/2019/07/09/SpringMVC学习笔记/</id>
+    <published>2019-07-09T14:10:09.729Z</published>
+    <updated>2019-07-09T19:08:39.626Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Tue Jul 09 2019 18:47:29 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;SpringMVC-Model-View-Controller&quot;&gt;&lt;a href=&quot;#SpringMVC-Model-View-Con
+        &lt;!-- build time:Wed Jul 10 2019 02:46:00 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;SpringMVC-Model-View-Controller&quot;&gt;&lt;a href=&quot;#SpringMVC-Model-View-Con
       
     
     </summary>
     
-      <category term="SpringVC框架" scheme="http://dongdongyan.com/categories/SpringVC%E6%A1%86%E6%9E%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring框架学习笔记</title>
+    <link href="http://dongdongyan.com/2019/07/06/Spring%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://dongdongyan.com/2019/07/06/Spring框架学习笔记/</id>
+    <published>2019-07-06T15:20:31.000Z</published>
+    <updated>2019-07-10T01:45:38.709Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Wed Jul 10 2019 02:46:00 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;1-Spring的好处&quot;&gt;&lt;a href=&quot;#1-Spring的好处&quot; class=&quot;headerlink&quot; title=&quot;1. Sp
+      
+    
+    </summary>
+    
+      <category term="Spring框架" scheme="http://dongdongyan.com/categories/Spring%E6%A1%86%E6%9E%B6/"/>
     
     
-      <category term="SpringMVC" scheme="http://dongdongyan.com/tags/SpringMVC/"/>
+      <category term="Spring框架" scheme="http://dongdongyan.com/tags/Spring%E6%A1%86%E6%9E%B6/"/>
+    
+      <category term="IOC" scheme="http://dongdongyan.com/tags/IOC/"/>
+    
+      <category term="AOP" scheme="http://dongdongyan.com/tags/AOP/"/>
+    
+      <category term="trasaction" scheme="http://dongdongyan.com/tags/trasaction/"/>
     
   </entry>
   
@@ -50,7 +75,7 @@
     
       
       
-        &lt;!-- build time:Tue Jul 09 2019 18:47:29 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近在读Java圣经-Java编程思想-Thingking-in-Java-第四版，-正好以笔记的形式整理一份Java的基础知识。&quot;&gt;
+        &lt;!-- build time:Wed Jul 10 2019 02:46:00 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近在读Java圣经-Java编程思想-Thingking-in-Java-第四版，-正好以笔记的形式整理一份Java的基础知识。&quot;&gt;
       
     
     </summary>
@@ -59,6 +84,25 @@
     
     
       <category term="Java基础" scheme="http://dongdongyan.com/tags/Java%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://dongdongyan.com/2019/06/28/%E5%89%8D%E7%AB%AF%E4%B8%AD%E7%9A%84%E5%B0%8F%E7%AC%94%E8%AE%B0/"/>
+    <id>http://dongdongyan.com/2019/06/28/前端中的小笔记/</id>
+    <published>2019-06-28T15:47:09.943Z</published>
+    <updated>2019-07-09T22:17:01.153Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Wed Jul 10 2019 02:46:00 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;前端小笔记；&lt;/p&gt;&lt;p&gt;JS function里， 一般利用返回值时带function的括号： if(checkusername()), 如果
+      
+    
+    </summary>
+    
     
   </entry>
   
@@ -73,7 +117,7 @@
     
       
       
-        &lt;!-- build time:Tue Jul 09 2019 18:47:29 GMT+0100 (GMT+01:00) --&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;概述&lt;br&gt;Mybatis是一个优秀的基于 java的持久层框架，它内部封装了 jdbc，使开发者只需要关注 sql语句本身，而
+        &lt;!-- build time:Wed Jul 10 2019 02:46:00 GMT+0100 (GMT+01:00) --&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;概述&lt;br&gt;Mybatis是一个优秀的基于 java的持久层框架，它内部封装了 jdbc，使开发者只需要关注 sql语句本身，而
       
     
     </summary>
@@ -96,7 +140,7 @@
     
       
       
-        &lt;!-- build time:Tue Jul 09 2019 18:47:29 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;主要内容&quot;&gt;&lt;a href=&quot;#主要内容&quot; class=&quot;headerlink&quot; title=&quot;主要内容&quot;&gt;&lt;/a&gt;主要内容&lt;/h1&gt;
+        &lt;!-- build time:Wed Jul 10 2019 02:46:00 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;主要内容&quot;&gt;&lt;a href=&quot;#主要内容&quot; class=&quot;headerlink&quot; title=&quot;主要内容&quot;&gt;&lt;/a&gt;主要内容&lt;/h1&gt;
       
     
     </summary>
@@ -127,13 +171,13 @@
     <link href="http://dongdongyan.com/2019/05/15/Java1.8%20Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F+Function+Stream/"/>
     <id>http://dongdongyan.com/2019/05/15/Java1.8 Lambda表达式+Function+Stream/</id>
     <published>2019-05-15T21:41:02.000Z</published>
-    <updated>2019-05-31T22:52:34.621Z</updated>
+    <updated>2019-07-09T21:06:42.861Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Tue Jul 09 2019 18:47:29 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;自Java-8-JDK1-8-，推出了几个新的重要特性，这篇博文主要介绍了-Lambda，Function-Stream这三个新特性的
+        &lt;!-- build time:Wed Jul 10 2019 02:46:00 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;自Java-8-JDK1-8-，推出了几个新的重要特性，这篇博文主要介绍了-Lambda，Function-Stream这三个新特性的
       
     
     </summary>
@@ -156,7 +200,7 @@
     
       
       
-        &lt;!-- build time:Tue Jul 09 2019 18:47:29 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;我个人对数据库学的比较浅，这篇博文记录了一些数据库的基础知识，主要用于个人笔记形式&quot;&gt;&lt;a href=&quot;#我个人对数据库学的比较浅，这
+        &lt;!-- build time:Wed Jul 10 2019 02:46:00 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;我个人对数据库学的比较浅，这篇博文记录了一些数据库的基础知识，主要用于个人笔记形式&quot;&gt;&lt;a href=&quot;#我个人对数据库学的比较浅，这
       
     
     </summary>
@@ -179,7 +223,7 @@
     
       
       
-        &lt;!-- build time:Tue Jul 09 2019 18:47:29 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;a href=&quot;#简介&quot;&gt;简介：&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#hash&quot;&gt;Hash:&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a hr
+        &lt;!-- build time:Wed Jul 10 2019 02:46:00 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;a href=&quot;#简介&quot;&gt;简介：&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#hash&quot;&gt;Hash:&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a hr
       
     
     </summary>
@@ -198,7 +242,7 @@
     
       
       
-        &lt;!-- build time:Tue Jul 09 2019 18:47:29 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;strong&gt;这里目前主要先用来总结一下Collection框架的基础知识，包括各个容器的优劣，使用场景等等. 这篇博客里有很多地方我自己比较
+        &lt;!-- build time:Wed Jul 10 2019 02:46:00 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;strong&gt;这里目前主要先用来总结一下Collection框架的基础知识，包括各个容器的优劣，使用场景等等. 这篇博客里有很多地方我自己比较
       
     
     </summary>
@@ -221,7 +265,7 @@
     
       
       
-        &lt;!-- build time:Tue Jul 09 2019 18:47:29 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近有场Software-Engineering考试，趁机总结一波各种UML图的画法，包括UserCase-State-Activit
+        &lt;!-- build time:Wed Jul 10 2019 02:46:00 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;最近有场Software-Engineering考试，趁机总结一波各种UML图的画法，包括UserCase-State-Activit
       
     
     </summary>
@@ -246,7 +290,7 @@
     
       
       
-        &lt;!-- build time:Tue Jul 09 2019 18:47:29 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;这里记录一些常见的问题以及答案，主要是针对Java面试。&quot;&gt;&lt;a href=&quot;#这里记录一些常见的问题以及答案，主要是针对Java面试
+        &lt;!-- build time:Wed Jul 10 2019 02:46:00 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;这里记录一些常见的问题以及答案，主要是针对Java面试。&quot;&gt;&lt;a href=&quot;#这里记录一些常见的问题以及答案，主要是针对Java面试
       
     
     </summary>
@@ -269,7 +313,7 @@
     
       
       
-        &lt;!-- build time:Tue Jul 09 2019 18:47:29 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;计算机语言的几种分类&lt;/p&gt;&lt;h3 id=&quot;常见的几种分类&quot;&gt;&lt;a href=&quot;#常见的几种分类&quot; class=&quot;headerlink&quot; tit
+        &lt;!-- build time:Wed Jul 10 2019 02:46:00 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;计算机语言的几种分类&lt;/p&gt;&lt;h3 id=&quot;常见的几种分类&quot;&gt;&lt;a href=&quot;#常见的几种分类&quot; class=&quot;headerlink&quot; tit
       
     
     </summary>
@@ -294,7 +338,7 @@
     
       
       
-        &lt;!-- build time:Tue Jul 09 2019 18:47:29 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;md语法已经成了程序员的一项必备技能&quot;&gt;&lt;a href=&quot;#md语法已经成了程序员的一项必备技能&quot; class=&quot;headerlink
+        &lt;!-- build time:Wed Jul 10 2019 02:46:00 GMT+0100 (GMT+01:00) --&gt;&lt;h2 id=&quot;md语法已经成了程序员的一项必备技能&quot;&gt;&lt;a href=&quot;#md语法已经成了程序员的一项必备技能&quot; class=&quot;headerlink
       
     
     </summary>
@@ -321,7 +365,7 @@
     
       
       
-        &lt;!-- build time:Tue Jul 09 2019 18:47:29 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;只是用于测试分类和标签功能&quot;&gt;&lt;a href=&quot;#只是用于测试分类和标签功能&quot; class=&quot;headerlink&quot; title=&quot;只
+        &lt;!-- build time:Wed Jul 10 2019 02:46:00 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;只是用于测试分类和标签功能&quot;&gt;&lt;a href=&quot;#只是用于测试分类和标签功能&quot; class=&quot;headerlink&quot; title=&quot;只
       
     
     </summary>
@@ -372,7 +416,7 @@
     
       
       
-        &lt;!-- build time:Tue Jul 09 2019 18:47:29 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;pure&quot;&gt;&lt;a href=&quot;#pure&quot; class=&quot;headerlink&quot; title=&quot;pure&quot;&gt;&lt;/a&gt;pure&lt;/h1&gt;
+        &lt;!-- build time:Wed Jul 10 2019 02:46:00 GMT+0100 (GMT+01:00) --&gt;&lt;h1 id=&quot;pure&quot;&gt;&lt;a href=&quot;#pure&quot; class=&quot;headerlink&quot; title=&quot;pure&quot;&gt;&lt;/a&gt;pure&lt;/h1&gt;
       
     
     </summary>
@@ -399,7 +443,7 @@
     
       
       
-        &lt;!-- build time:Tue Jul 09 2019 18:47:29 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;a href=&quot;#第一章--上&quot;&gt;第一章 上&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#二级标题测试&quot;&gt;二级标题测试&lt;/a&gt;&lt;/li&gt;
+        &lt;!-- build time:Wed Jul 10 2019 02:46:00 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;&lt;a href=&quot;#第一章--上&quot;&gt;第一章 上&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#二级标题测试&quot;&gt;二级标题测试&lt;/a&gt;&lt;/li&gt;
       
     
     </summary>
@@ -422,7 +466,7 @@
     
       
       
-        &lt;!-- build time:Tue Jul 09 2019 18:47:29 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener no
+        &lt;!-- build time:Wed Jul 10 2019 02:46:00 GMT+0100 (GMT+01:00) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener no
       
     
     </summary>
@@ -441,7 +485,7 @@
     
       
       
-        &lt;!-- build time:Tue Jul 09 2019 18:47:29 GMT+0100 (GMT+01:00) --&gt;&lt;ol&gt;&lt;li&gt;bin 文件夹&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;bin 是binary的缩写，一般用来放可执行文件，或者编译后可运行的二进制文件。 常包含 .
+        &lt;!-- build time:Wed Jul 10 2019 02:46:00 GMT+0100 (GMT+01:00) --&gt;&lt;ol&gt;&lt;li&gt;bin 文件夹&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;bin 是binary的缩写，一般用来放可执行文件，或者编译后可运行的二进制文件。 常包含 .
       
     
     </summary>
