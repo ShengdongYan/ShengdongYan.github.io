@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://dongdongyan.com/2019/07/06/Spring%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2019-07-17</lastmod>
+  </url>  <url>
+    <loc>http://dongdongyan.com/2019/03/26/Test/</loc>
+    <lastmod>2019-07-17</lastmod>
+  </url>  <url>
+    <loc>http://dongdongyan.com/2018/12/03/SpringMVC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2019-07-17</lastmod>
+  </url>  <url>
+    <loc>http://dongdongyan.com/2018/11/30/%E5%8D%9A%E5%A4%A7%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2019-07-17</lastmod>
+  </url>  <url>
+    <loc>http://dongdongyan.com/2018/12/02/23%E7%A7%8D%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2019-07-17</lastmod>
+  </url>  <url>
+    <loc>http://dongdongyan.com/2019/07/01/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</loc>
+    <lastmod>2019-07-17</lastmod>
+  </url>  <url>
+    <loc>http://dongdongyan.com/2019/05/01/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc>
+    <lastmod>2019-07-17</lastmod>
+  </url>  <url>
+    <loc>http://dongdongyan.com/2019/06/02/Mybatis%E5%AD%A6%E4%B9%A0%E5%8F%8A%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2019-07-10</lastmod>
   </url>  <url>
     <loc>http://dongdongyan.com/2019/06/28/%E5%89%8D%E7%AB%AF%E4%B8%AD%E7%9A%84%E5%B0%8F%E7%AC%94%E8%AE%B0/</loc>
@@ -10,20 +31,8 @@
     <loc>http://dongdongyan.com/2019/05/15/Java1.8%20Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F+Function+Stream/</loc>
     <lastmod>2019-07-09</lastmod>
   </url>  <url>
-    <loc>http://dongdongyan.com/2019/07/09/SpringMVC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2019-07-09</lastmod>
-  </url>  <url>
-    <loc>http://dongdongyan.com/2019/06/02/Mybatis%E5%AD%A6%E4%B9%A0%E5%8F%8A%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2019-07-09</lastmod>
-  </url>  <url>
-    <loc>http://dongdongyan.com/2019/07/01/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</loc>
-    <lastmod>2019-07-07</lastmod>
-  </url>  <url>
     <loc>http://dongdongyan.com/2019/05/08/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2019-07-06</lastmod>
-  </url>  <url>
-    <loc>http://dongdongyan.com/2019/02/16/%E7%94%B5%E8%84%91%E4%BD%BF%E7%94%A8%E4%B8%AD%E7%9A%84%E5%B0%8F%E7%9F%A5%E8%AF%86%E7%A7%AF%E7%B4%AF/</loc>
-    <lastmod>2019-06-24</lastmod>
   </url>  <url>
     <loc>http://dongdongyan.com/2019/05/27/JavaWeb%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2019-06-23</lastmod>
@@ -42,9 +51,6 @@
   </url>  <url>
     <loc>http://dongdongyan.com/2019/04/13/SE-UML%E5%9B%BE%E7%B1%BB%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2019-04-29</lastmod>
-  </url>  <url>
-    <loc>http://dongdongyan.com/2019/03/26/Test/</loc>
-    <lastmod>2019-04-20</lastmod>
   </url>  <url>
     <loc>http://dongdongyan.com/2019/03/26/hello-world/</loc>
     <lastmod>2019-04-19</lastmod>
