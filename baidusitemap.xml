@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://dongdongyan.com/2019/05/01/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc>
+    <lastmod>2019-07-22</lastmod>
+  </url>  <url>
     <loc>http://dongdongyan.com/2018/12/03/SpringMVC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2019-07-18</lastmod>
+    <lastmod>2019-07-22</lastmod>
+  </url>  <url>
+    <loc>http://dongdongyan.com/2019/07/01/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</loc>
+    <lastmod>2019-07-21</lastmod>
   </url>  <url>
     <loc>http://dongdongyan.com/2019/03/26/MarkDown%E6%96%87%E7%AB%A0%E6%A0%BC%E5%BC%8F%E6%A8%A1%E6%9D%BF/</loc>
     <lastmod>2019-07-18</lastmod>
@@ -13,23 +19,8 @@
     <loc>http://dongdongyan.com/2019/04/12/Java%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/</loc>
     <lastmod>2019-07-18</lastmod>
   </url>  <url>
-    <loc>http://dongdongyan.com/2018/11/30/%E5%8D%9A%E5%A4%A7%E6%AF%95%E8%AE%BE%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2019-07-17</lastmod>
-  </url>  <url>
-    <loc>http://dongdongyan.com/2018/12/02/23%E7%A7%8D%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2019-07-17</lastmod>
-  </url>  <url>
-    <loc>http://dongdongyan.com/2019/07/01/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</loc>
-    <lastmod>2019-07-17</lastmod>
-  </url>  <url>
-    <loc>http://dongdongyan.com/2019/05/01/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc>
-    <lastmod>2019-07-17</lastmod>
-  </url>  <url>
     <loc>http://dongdongyan.com/2019/06/02/Mybatis%E5%AD%A6%E4%B9%A0%E5%8F%8A%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2019-07-10</lastmod>
-  </url>  <url>
-    <loc>http://dongdongyan.com/2019/06/28/%E5%89%8D%E7%AB%AF%E4%B8%AD%E7%9A%84%E5%B0%8F%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2019-07-09</lastmod>
   </url>  <url>
     <loc>http://dongdongyan.com/2019/05/15/Java1.8%20Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F+Function+Stream/</loc>
     <lastmod>2019-07-09</lastmod>
